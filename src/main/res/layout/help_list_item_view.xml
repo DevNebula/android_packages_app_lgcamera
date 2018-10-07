@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/help_item_layout_start_end_padding_portrait" android:paddingEnd="@dimen/help_item_layout_start_end_padding_portrait">
+    <ImageView android:id="@c0086id/help_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_item_image_top_margin" android:layout_centerHorizontal="true"/>
+    <TextView android:id="@c0086id/help_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_item_title_top_margin_portrait" android:layout_below="@c0086id/help_item_image" style="@style/help_item_title"/>
+    <LinearLayout android:orientation="vertical" android:id="@c0086id/help_desc_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_item_description_top_margin" android:layout_marginBottom="@dimen/help_item_description_bottom_margin" android:layout_below="@c0086id/help_item_title"/>
+</RelativeLayout>

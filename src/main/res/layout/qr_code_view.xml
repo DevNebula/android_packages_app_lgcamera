@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/qr_code_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@c0086id/qr_code_infobox" android:background="@c0085drawable/ic_camera_qrcode_infobox" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="200dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@c0086id/iv_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_qrcode_gallery" android:layout_centerVertical="true" android:layout_marginStart="14dp" android:layout_marginEnd="11dp"/>
+        <RelativeLayout android:id="@c0086id/qr_code_text_view" android:layout_width="222dp" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@c0086id/iv_gallery">
+            <com.lge.camera.components.RotateTextView android:id="@c0086id/qr_code_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/qrcode_text"/>
+            <com.lge.camera.components.RotateTextView android:id="@c0086id/qr_code_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@c0086id/qr_code_text" style="@style/qrcode_text_desc"/>
+        </RelativeLayout>
+        <ImageView android:id="@c0086id/iv_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_qrcode_qrcode" android:layout_centerVertical="true" android:layout_marginStart="11dp" android:layout_marginEnd="14dp" android:layout_toEndOf="@c0086id/qr_code_text_view"/>
+    </RelativeLayout>
+</RelativeLayout>

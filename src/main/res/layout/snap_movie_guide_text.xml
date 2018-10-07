@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/snap_movie_guide_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/snap_movie_guide_text_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@c0086id/snap_movie_guide_text_inner_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+            <TextView android:textAppearance="@style/snap_movie_guide_text" android:gravity="center_horizontal" android:id="@c0086id/snap_movie_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snap_init_guide2" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

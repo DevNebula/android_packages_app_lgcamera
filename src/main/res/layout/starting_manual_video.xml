@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="@dimen/starting_window_preview_height"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="@dimen/starting_window_command_height">
+        <RelativeLayout android:layout_width="@dimen/review_thumbnail_size" android:layout_height="@dimen/review_thumbnail_size" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/extra_button_marginTop" android:layout_alignParentEnd="true">
+            <ImageView android:background="@c0085drawable/border_last_picture" android:focusable="false" android:layout_width="@dimen/review_thumbnail_size" android:layout_height="@dimen/review_thumbnail_size" android:src="@c0085drawable/shutter_icon_gallery_default" android:scaleType="fitXY" android:layoutDirection="ltr"/>
+        </RelativeLayout>
+        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+            <ImageButton android:background="@c0085drawable/btn_recording_shutter_background" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:soundEffectsEnabled="false"/>
+            <ImageButton android:background="@c0085drawable/btn_shutter_mode_video" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:focusable="false" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_marginStart="@dimen/side_button_margin_side" android:layout_alignParentStart="true">
+            <ImageButton android:background="@c0085drawable/btn_quickbutton_backkey" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

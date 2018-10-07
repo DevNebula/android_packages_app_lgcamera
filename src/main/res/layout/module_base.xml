@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/module_base_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.lge.camera.components.PreviewFrameLayout android:id="@c0086id/frame" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layoutDirection="ltr">
+        <include layout="@layout/focus"/>
+    </com.lge.camera.components.PreviewFrameLayout>
+</RelativeLayout>

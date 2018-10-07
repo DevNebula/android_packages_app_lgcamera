@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="false" android:drawable="@c0085drawable/camera_selfie_film_normal_5"/>
+</selector>

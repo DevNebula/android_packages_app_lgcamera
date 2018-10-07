@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/histogram_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.lge.camera.components.Histogram android:id="@c0086id/histogram_view" android:visibility="invisible" android:layout_width="@dimen/histogram_panel_height" android:layout_height="@dimen/histogram_panel_width" android:contentDescription="@string/camera_hisogram" android:layoutDirection="ltr"/>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

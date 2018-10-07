@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/overlap_preview_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@c0086id/overlap_imageview_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@c0086id/overlap_imageview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <LinearLayout android:gravity="center" android:id="@c0086id/overlap_seekbar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <ImageView android:id="@c0086id/start_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_preview_bar_opacity_camera"/>
+                <SeekBar android:id="@c0086id/overlap_seekbar" android:background="@null" android:padding="0dp" android:layout_width="0dp" android:layout_height="@dimen/zoom_view_width" android:max="245" android:progress="10" android:progressDrawable="@c0085drawable/solid_progress_drawable" android:thumb="@c0085drawable/ic_camera_cursor" android:layout_weight="1" android:contentDescription="@string/transparency" android:paddingStart="11dp" android:paddingEnd="11dp" android:splitTrack="false"/>
+                <ImageView android:id="@c0086id/end_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_preview_bar_opacity_gallery"/>
+            </LinearLayout>
+            <TextView android:gravity="center" android:id="@c0086id/alpha_guide_string" android:layout_width="@dimen/overlap_seekbar_width" android:layout_height="wrap_content" android:text="@string/cell_adjust_guide_transparency" android:layout_above="@c0086id/overlap_seekbar_layout" android:layout_centerHorizontal="true" style="@style/type_ag02_dp_white"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

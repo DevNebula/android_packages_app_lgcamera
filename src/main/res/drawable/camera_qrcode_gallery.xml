@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="25dp" android:width="25dp" android:viewportWidth="100" android:viewportHeight="100">
+    <path android:fillColor="#262626" android:pathData="M54.01,54h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M66.01,54h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M60.01,60h5.99v6.01h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M72.02,60h5.99v6.01h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M78,54h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M54.01,66h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M66.01,66h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M60.01,72.01h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M72.02,72.01h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M78,66h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M54.01,78.01h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M66.01,78.01h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M78,78.01h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M28,27.99h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M46,20v-4h-0v-0h-4v0H20v-0h-4v0h-0v4H16v22h-0v4H16v0h4v-0h22v0h4v-0h0v-4h-0L46,20L46,20zM42,42H20V20h22V42z"/>
+    <path android:fillColor="#262626" android:pathData="M28,66h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M46,58v-4h-0v-0h-4v0H20v-0h-4v0h-0v4H16v22h-0v4H16v0h4v-0h22v0h4v-0h0v-4h-0L46,58L46,58zM42,80.01H20V58h22V80.01z"/>
+    <path android:fillColor="#262626" android:pathData="M66.01,27.99h5.99v6h-5.99z"/>
+    <path android:fillColor="#262626" android:pathData="M84.01,20v-4h-0v-0h-4v0H58v-0h-4v0h-0v4h0v22h-0v4h0v0h4v-0h22v0h4v-0h0v-4h-0L84.01,20L84.01,20zM80.01,42H58V20h22V42z"/>
+</vector>

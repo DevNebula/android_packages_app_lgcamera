@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/beautyshot" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.lge.camera.components.RotateLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@c0086id/beautyshot_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <com.lge.camera.components.BeautyshotBar android:id="@c0086id/beautyshot_bar" android:visibility="gone" android:clipChildren="false" android:layout_width="@dimen/zoom_view_width" android:layout_height="@dimen/beauty_bar_height" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+                <RelativeLayout android:id="@c0086id/face_plus_button_view" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="@dimen/zoom_view_width" android:layout_height="@dimen/zoom_view_width" android:layoutDirection="ltr">
+                    <com.lge.camera.components.RotateImageView android:id="@c0086id/face_plus_button" android:focusable="false" android:layout_width="@dimen/zoom_view_width" android:layout_height="@dimen/zoom_view_width" android:src="@c0085drawable/camera_preview_bar_plus" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@c0086id/face_minus_button_view" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="@dimen/zoom_view_width" android:layout_height="@dimen/zoom_view_width" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+                    <com.lge.camera.components.RotateImageView android:id="@c0086id/face_minus_button" android:focusable="false" android:layout_width="@dimen/zoom_view_width" android:layout_height="@dimen/zoom_view_width" android:src="@c0085drawable/camera_preview_bar_minus" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@c0086id/face_cursor_bg_view" android:paddingTop="@dimen/beauty_bar_bg_marginTop" android:paddingBottom="@dimen/beauty_bar_bg_marginBottom" android:layout_width="@dimen/zoom_view_width" android:layout_height="@dimen/beauty_bar_cursor_height" android:layout_centerInParent="true" android:layoutDirection="ltr">
+                    <com.lge.camera.components.BarProgress android:id="@c0086id/face_cursor_bg" android:background="@c0085drawable/bg_camera_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitXY" android:layout_centerHorizontal="true" android:contentDescription="@string/tone_control_bar" android:layoutDirection="ltr"/>
+                </RelativeLayout>
+                <com.lge.camera.components.RotateImageView android:id="@c0086id/face_cursor" android:layout_width="@dimen/zoom_view_width" android:layout_height="@dimen/zoom_view_width" android:src="@c0085drawable/ic_camera_cursor"/>
+            </com.lge.camera.components.BeautyshotBar>
+            <com.lge.camera.components.RotateLayout android:id="@c0086id/beauty_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@c0086id/beautyshot_bar" android:layout_marginStart="@dimen/bar_cursor_text_margin_startEnd" android:layout_marginEnd="@dimen/bar_cursor_text_margin_startEnd" android:layout_toStartOf="@c0086id/beautyshot_bar">
+                <TextView android:gravity="center" android:id="@c0086id/beautyshot_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/beautyBar_text"/>
+            </com.lge.camera.components.RotateLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</FrameLayout>

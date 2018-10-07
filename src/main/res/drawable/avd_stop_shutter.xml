@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@c0085drawable/avd_stop_shutter_1">
+    <target android:name="shutter_fill" android:animation="@c0085drawable/avd_stop_shutter_2"/>
+    <target android:name="shutter_outline" android:animation="@c0085drawable/avd_stop_shutter_3"/>
+</animated-vector>

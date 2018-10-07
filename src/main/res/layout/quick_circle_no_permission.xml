@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@c0086id/quick_circle_permissions_layout" android:background="@android:color/white" android:layout_width="@dimen/quick_circle_width" android:layout_height="@dimen/quick_circle_height" android:foreground="@c0085drawable/quickcover_mask" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/quick_circle_title_text_size" android:textColor="#ffffff" android:ellipsize="end" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@c0086id/quick_circle_empty_header" android:background="#5f6570" android:paddingBottom="@dimen/quick_circle_title_bottom_padding" android:layout_width="match_parent" android:layout_height="@dimen/quick_circle_title_height" android:text="@string/app_name" android:singleLine="true" android:paddingStart="@dimen/quick_circle_title_width_padding" android:paddingEnd="@dimen/quick_circle_title_width_padding"/>
+            <ImageView android:gravity="center_horizontal" android:id="@c0086id/quick_circle_empty_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_circle_empty_content_margin_top" android:src="@c0085drawable/ic_noti_quickcover_permission"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@c0086id/quick_circle_back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/quick_circle_back_btn_bottom_margin" android:src="@c0085drawable/selector_quickwindow_back_btn_holo" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="@dimen/quick_circle_empty_text_size" android:textColor="#797979" android:gravity="center" android:id="@c0086id/quick_circle_permission_noti_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_permissio_string" android:layout_above="@c0086id/quick_circle_back_btn" android:layout_alignParentTop="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+package com.lge.camera.solution;
+
+public class SolutionConstants {
+    public static final int AUTO_CONTRAST = 64;
+    public static final int BEAUTY_SHOT = 16;
+    public static final int CAMERA_ID_FRONT = 1;
+    public static final int CAMERA_ID_MAIN = 0;
+    public static final int CAMERA_ID_MAIN2 = 2;
+    public static final int DRCHECKER = 2048;
+    public static final int EIS_LUMINANCE = 2;
+    public static final int FILM_EMULATOR = 32;
+    public static final int FLASH_NR = 2;
+    public static final int HDR = 4;
+    public static final int HIGH_LUMINANCE = 0;
+    public static final int LOW_LUMINANCE = 1;
+    public static final int MAX_NUM_OF_SOLUTIONS = 12;
+    public static final int MFNR = 1024;
+    public static final int NIGHT_SHOT = 8;
+    public static final int NONE_SOLUTION = 0;
+    public static final int OUTFOCUS = 256;
+    public static final int SHOT_MODE_BEAUTY = 4;
+    public static final int SHOT_MODE_BURST = 2;
+    public static final int SHOT_MODE_CINE = 512;
+    public static final int SHOT_MODE_DUAL_POP = 8192;
+    public static final int SHOT_MODE_FLASH_JUMPCUT = 16384;
+    public static final int SHOT_MODE_FOOD = 64;
+    public static final int SHOT_MODE_MANUAL = 16;
+    public static final int SHOT_MODE_MULTIVIEW = 8;
+    public static final int SHOT_MODE_NORMAL = 1;
+    public static final int SHOT_MODE_OUTFOCUS = 32;
+    public static final int SHOT_MODE_PANORAMA = 2048;
+    public static final int SHOT_MODE_POPOUT = 4096;
+    public static final int SHOT_MODE_SLOW_MOTION = 256;
+    public static final int SHOT_MODE_SNAP_MOVIE = 1024;
+    public static final int SHOT_MODE_TIMELAPSE = 128;
+    public static final int SIGNATURE = 128;
+    public static final int SOLUTION_INDEX_MAX = 3;
+    public static final int SOLUTION_INDEX_PREVIEW = 1;
+    public static final int SOLUTION_INDEX_SNAPSHOT = 0;
+    public static final int SOLUTION_INDEX_VIDEO = 2;
+    public static final int SOLUTION_MASK_OFF = 0;
+    public static final int SOLUTION_MASK_PREVIEW = 2;
+    public static final int SOLUTION_MASK_SNAPSHOT = 1;
+    public static final int SOLUTION_MASK_VIDEO = 4;
+    public static final int SUPER_ZOOM = 1;
+    public static final int VIDEO_NR = 512;
+    public static final int WDR = 4096;
+}

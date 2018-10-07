@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@c0086id/backcover" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <RelativeLayout android:id="@c0086id/rotate_dialog_margin_layout" android:padding="@dimen/rotate_dialog_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/rotate_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="vertical" android:id="@c0086id/rotate_dialog_inner_layout" android:background="@c0085drawable/dialog_round_corner" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:paddingTop="@dimen/rotate_tag_dialog_content_layout_paddingTop" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="@dimen/rotate_help_dialog_content_layout_padding" android:paddingEnd="@dimen/rotate_help_dialog_content_layout_padding">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@c0086id/title_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/rotate_dialog_title_icon_marginEnd" style="@style/Dialog_Title_Icon"/>
+                        <TextView android:textAppearance="@style/tag_dialog_sp_bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@c0086id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dummy_space" android:singleLine="false"/>
+                    </LinearLayout>
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rotate_tag_dialog_help_content_layout_marginTop">
+                        <ScrollView android:scrollbarStyle="outsideInset" android:id="@c0086id/message_scroll" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false" android:overScrollMode="ifContentScrolls" android:layoutDirection="locale"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/button_inner_layout" android:layout_width="match_parent" android:layout_height="@dimen/rotate_dialog_button_height" android:layoutDirection="locale" android:paddingEnd="@dimen/rotate_dialog_button_inner_layout_new_paddingEnd">
+                    <Space android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                    <Button android:textAppearance="@style/type_d03_sp_bold" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@c0086id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" style="?android:attr/buttonBarButtonStyle"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="bottom" android:id="@c0086id/usp_zone_base_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@c0086id/usp_zone_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"/>
+</RelativeLayout>

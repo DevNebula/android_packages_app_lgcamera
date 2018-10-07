@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/sticker_menu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@c0086id/sticker_tab_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@c0086id/dummyview" android:background="#bf262626" android:layout_width="match_parent" android:layout_height="@dimen/sticker_dummyview_height" android:layout_alignParentBottom="true"/>
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/sticker_rotate_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@c0086id/dummyview">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <RelativeLayout android:id="@c0086id/tab_container" android:background="#4c262626" android:padding="0dp" android:layout_width="match_parent" android:layout_height="@dimen/sticker_tab_height">
+                    <com.lge.camera.components.RotateImageView android:id="@c0086id/sticker_clear_button" android:layout_width="@dimen/sticker_reset_btn_size" android:layout_height="@dimen/sticker_reset_btn_size" android:src="@c0085drawable/selector_sticker_tap_reset" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="@string/sticker_dismiss_sticker" android:layout_marginStart="@dimen/sticker_clear_button_start_margin" android:layout_marginEnd="@dimen/sticker_tab_first_item_left_margin" android:layout_alignParentStart="true"/>
+                    <RelativeLayout android:id="@c0086id/tab_divider" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toEndOf="@c0086id/sticker_clear_button">
+                        <ImageView android:background="#fafafa" android:layout_width="@dimen/sticker_tab_divider_width" android:layout_height="@dimen/sticker_tab_divider_height" android:layout_centerInParent="true"/>
+                    </RelativeLayout>
+                    <android.support.v7.widget.RecyclerView android:id="@c0086id/sticker_tab_list" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toEndOf="@c0086id/tab_divider" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <android.support.v7.widget.RecyclerView android:id="@c0086id/sticker_gridview" android:background="#bf262626" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/sticker_item_listview_height" android:horizontalSpacing="@dimen/sticker_grid_item_spacing" android:verticalSpacing="@dimen/sticker_grid_item_spacing" android:numColumns="5"/>
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+        <ProgressBar android:id="@c0086id/sticker_decompressing_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/sticker_progress_size" android:layout_marginBottom="@dimen/sticker_progress_margin_bottom" android:layout_above="@c0086id/dummyview"/>
+    </RelativeLayout>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/sticker_action_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="@style/initial_guide_text" android:id="@c0086id/sticker_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAlignment="center" style="@style/snap_movie_guide_text"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/sticker_guide_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/sticker_dummyview_height">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@c0086id/sticker_guid_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/img_sticker_guide" android:layout_centerInParent="true"/>
+            <TextView android:id="@c0086id/sticker_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sticker_initial_guide" android:layout_below="@c0086id/sticker_guid_image" android:layout_centerHorizontal="true" android:textAlignment="center" style="@style/snap_movie_guide_text"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

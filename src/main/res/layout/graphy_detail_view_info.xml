@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@c0086id/graphy_image_info_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@c0086id/graphy_image_info_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/graphy_title_type_ag01_dp_white"/>
+    <View android:layout_width="match_parent" android:layout_height="4dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@c0086id/graphy_image_contents_info" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@c0086id/graphy_contents_info_wb" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/type_A01_dp_white"/>
+            <View android:layout_width="20dp" android:layout_height="match_parent"/>
+            <TextView android:id="@c0086id/graphy_contents_info_aperture" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/type_A01_dp_white"/>
+            <View android:layout_width="20dp" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@c0086id/graphy_contents_info_iso" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/type_A01_dp_white"/>
+            <View android:id="@c0086id/graphy_iso_ss_gap" android:layout_width="20dp" android:layout_height="match_parent"/>
+            <TextView android:id="@c0086id/graphy_contents_info_ss" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/type_A01_dp_white"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

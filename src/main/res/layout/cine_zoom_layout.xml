@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@c0086id/cine_zoom_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shutter_btn_base_height">
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="13dp">
+        <LinearLayout android:id="@c0086id/cine_zoom_child_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/btn_cine_zoom_speed" android:background="#00000000" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/levellist_cine_zoom_speed" android:contentDescription="@string/camera_cz_speed" android:layout_marginEnd="4dp" lge:text="@string/camera_cz_speed" style="@style/cinema_mode_item"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/btn_cine_zoom_play_pause" android:background="#00000000" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/levellist_cine_zoom_play_pause" android:contentDescription="@string/camera_cz_start" android:layout_marginEnd="4dp" lge:text="@string/camera_cz_start" style="@style/cinema_mode_item"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/btn_cine_zoom_in_out" android:background="#00000000" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/levellist_cine_zoom_in_out" android:contentDescription="@string/camera_cz_zoom_in" lge:text="@string/camera_cz_zoom_in" style="@style/cinema_mode_item"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:id="@c0086id/cine_zoom_parent_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@c0086id/cine_zoom_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_icon_setting_multiview_arrow_down" android:layout_marginEnd="-2dp"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/btn_cine_zoom" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/btn_cine_zoom" android:checkable="true" android:contentDescription="@string/initial_guide_title_point_zoom" android:layout_marginEnd="5dp" lge:text="@string/initial_guide_title_point_zoom" style="@style/cinema_mode_item"/>
+    </LinearLayout>
+</LinearLayout>

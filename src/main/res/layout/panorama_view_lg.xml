@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/panorama_view_layout_lg" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" android:layout_marginStart="@dimen/panorama_bar_side_margin" android:layout_marginEnd="@dimen/panorama_bar_side_margin">
+    <com.lge.camera.components.DrawingPanel android:id="@c0086id/preview_drawingpanel" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/panorama_btn_layout"/>
+    <include layout="@layout/panorama_init_guide"/>
+    <RelativeLayout android:id="@c0086id/panorama_warning_text_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/panorama_warning_text_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+                <TextView android:textAppearance="@style/panorama_text" android:id="@c0086id/panorama_warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/panorama_slow_down"/>
+            </RelativeLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

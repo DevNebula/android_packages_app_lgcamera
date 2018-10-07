@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/color_effect_item_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@c0086id/color_effect_item_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/color_effect_item_text_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+        <com.lge.camera.components.StrokeTextView android:id="@c0086id/color_effect_item_text_view" android:paddingBottom="@dimen/color_effect_grid_view_text_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/color_effect_grid_view_text_padding_end" style="@style/color_effect_grid_view_text_stroke"/>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/manual_focus_layout" android:padding="2dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@c0086id/manual_focus_drum_rotate_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@c0086id/manual_focus_drum_rotate_wrapper_inner" android:layout_width="wrap_content" android:layout_height="@dimen/manual_wheel_width" android:layout_alignParentBottom="true">
+            <com.lge.camera.components.RotateLayout android:id="@c0086id/manual_focus_drum_rotate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <com.lge.camera.components.DrumBarController android:id="@c0086id/drum_mf_in_auto_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </com.lge.camera.components.RotateLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

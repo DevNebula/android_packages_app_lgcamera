@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/popout_frame_selector_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@c0086id/popout_frame_parent_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+        <ImageView android:id="@c0086id/popout_frame_parent_item_arrow" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_icon_setting_multiview_arrow" android:layout_centerVertical="true" android:rotation="180"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/popout_frame_parent_item_selected" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/setting_multiview_layout_single" android:layout_marginEnd="@dimen/quick_button_margin" android:layout_toEndOf="@c0086id/popout_frame_parent_item_arrow"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/popout_frame_child_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@c0086id/popout_frame_parent_item_view" android:layout_toStartOf="@c0086id/popout_frame_parent_item_view">
+        <LinearLayout android:orientation="horizontal" android:id="@c0086id/popout_frame_child_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

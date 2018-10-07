@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lge.camera.components.RotateLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/dot_page_indicator_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@c0086id/dot_page_indicator_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dot_layout_bottom_margin" android:layoutDirection="ltr">
+            <ImageButton android:id="@c0086id/first_indicator" android:background="#00000000" android:layout_width="@dimen/dot_image_size" android:layout_height="@dimen/dot_image_size" android:src="@c0085drawable/selector_dot_page_indicator" android:scaleType="center" android:contentDescription="page indicator" android:layout_marginEnd="8dp"/>
+            <ImageButton android:id="@c0086id/second_indicator" android:background="#00000000" android:layout_width="@dimen/dot_image_size" android:layout_height="@dimen/dot_image_size" android:src="@c0085drawable/selector_dot_page_indicator" android:scaleType="center" android:contentDescription="page indicator"/>
+            <ImageButton android:id="@c0086id/third_indicator" android:background="#00000000" android:layout_width="@dimen/dot_image_size" android:layout_height="@dimen/dot_image_size" android:src="@c0085drawable/selector_dot_page_indicator" android:scaleType="center" android:contentDescription="page indicator" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.lge.camera.components.RotateLayout>

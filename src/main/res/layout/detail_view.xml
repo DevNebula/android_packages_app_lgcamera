@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@c0086id/detail_view_base" android:background="@color/backcover_bg" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.lge.camera.components.DetailRotateLayout android:id="@c0086id/detail_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@c0086id/detail_view_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@c0086id/detail_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@c0086id/detail_info_wrapper" android:background="@color/detail_info_bg" android:layout_width="match_parent" android:layout_height="@dimen/detail_view_info_height_port" android:layout_alignParentBottom="true" android:paddingStart="@dimen/detail_view_info_padding_startEnd" android:paddingEnd="@dimen/detail_view_info_padding_startEnd"/>
+            </RelativeLayout>
+        </com.lge.camera.components.DetailRotateLayout>
+    </LinearLayout>
+</LinearLayout>

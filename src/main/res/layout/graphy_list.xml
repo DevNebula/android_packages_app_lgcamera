@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@c0086id/graphy_recyclerview_wrapper" android:background="@color/filter_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+        <android.support.v7.widget.RecyclerView android:id="@c0086id/graphy_recyclerview" android:paddingTop="@dimen/graphy_item_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/graphy_item_padding" android:paddingEnd="@dimen/graphy_item_padding"/>
+    </RelativeLayout>
+    <View android:id="@c0086id/graphy_list_disable" android:background="@color/graphy_disable" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

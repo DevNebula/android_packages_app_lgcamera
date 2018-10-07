@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@c0086id/preview_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@c0086id/light_frame_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layoutDirection="ltr"/>
+        <TextureView android:id="@c0086id/preview_texture_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+        <SurfaceView android:id="@c0086id/preview_surface_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+        <TextureView android:id="@c0086id/preview_texture_multiview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+        <SurfaceView android:id="@c0086id/preview_surface_popout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+        <SurfaceView android:id="@c0086id/preview_surface_dualpop" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+        <com.lge.camera.managers.ext.sticker.StickerGLSurfaceView android:id="@c0086id/preview_glsurfaceview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    </FrameLayout>
+</merge>

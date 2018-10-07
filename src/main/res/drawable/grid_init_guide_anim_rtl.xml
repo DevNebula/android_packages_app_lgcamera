@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:duration="500" android:drawable="@c0085drawable/camera_cell_coach_image_grid_1_rtl"/>
+    <item android:duration="500" android:drawable="@c0085drawable/camera_cell_coach_image_grid_2_rtl"/>
+    <item android:duration="500" android:drawable="@c0085drawable/camera_cell_coach_image_grid_3_rtl"/>
+    <item android:duration="500" android:drawable="@c0085drawable/camera_cell_coach_image_grid_4_rtl"/>
+</animation-list>

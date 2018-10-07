@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="horizontal" android:id="@c0086id/intervalshot_thumbnail_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/intervalshot_thumbitem_marginBottom" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layoutDirection="locale" android:layout_marginStart="@dimen/intervalshot_thumbitem_marginLeft" android:layout_marginEnd="@dimen/intervalshot_thumbitem_marginLeft">
+            <RelativeLayout android:background="@c0085drawable/camera_selfie_frame" android:layout_width="@dimen/intervalshot_thumbitem_frmae_width" android:layout_height="@dimen/intervalshot_thumbitem_frmae_width">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/intervalshot_thumbnail_item_view_1" android:layout_width="@dimen/intervalshot_thumbitem_image_width" android:layout_height="@dimen/intervalshot_thumbitem_image_width" android:scaleType="centerCrop" android:layout_centerInParent="true" style="@style/intervalshot_timertext"/>
+            </RelativeLayout>
+            <View android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1"/>
+            <RelativeLayout android:background="@c0085drawable/camera_selfie_frame" android:layout_width="@dimen/intervalshot_thumbitem_frmae_width" android:layout_height="@dimen/intervalshot_thumbitem_frmae_width">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/intervalshot_thumbnail_item_view_2" android:layout_width="@dimen/intervalshot_thumbitem_image_width" android:layout_height="@dimen/intervalshot_thumbitem_image_width" android:scaleType="centerCrop" android:layout_centerInParent="true" style="@style/intervalshot_timertext"/>
+            </RelativeLayout>
+            <View android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1"/>
+            <RelativeLayout android:background="@c0085drawable/camera_selfie_frame" android:layout_width="@dimen/intervalshot_thumbitem_frmae_width" android:layout_height="@dimen/intervalshot_thumbitem_frmae_width">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/intervalshot_thumbnail_item_view_3" android:layout_width="@dimen/intervalshot_thumbitem_image_width" android:layout_height="@dimen/intervalshot_thumbitem_image_width" android:scaleType="centerCrop" android:layout_centerInParent="true" style="@style/intervalshot_timertext"/>
+            </RelativeLayout>
+            <View android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1"/>
+            <RelativeLayout android:background="@c0085drawable/camera_selfie_frame" android:layout_width="@dimen/intervalshot_thumbitem_frmae_width" android:layout_height="@dimen/intervalshot_thumbitem_frmae_width">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/intervalshot_thumbnail_item_view_4" android:layout_width="@dimen/intervalshot_thumbitem_image_width" android:layout_height="@dimen/intervalshot_thumbitem_image_width" android:scaleType="centerCrop" android:layout_centerInParent="true" style="@style/intervalshot_timertext"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/intervalshot_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+            <TextView android:textAppearance="@style/inline_guide_text" android:id="@c0086id/intervalshot_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intervalshot_guide"/>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

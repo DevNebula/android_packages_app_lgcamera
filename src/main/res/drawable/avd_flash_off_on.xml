@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@c0085drawable/avd_flash_off_on_1">
+    <target android:name="mask" android:animation="@c0085drawable/avd_flash_off_on_2"/>
+    <target android:name="line_x5f_outline" android:animation="@c0085drawable/avd_flash_off_on_3"/>
+    <target android:name="line_x5f_fill" android:animation="@c0085drawable/avd_flash_off_on_4"/>
+</animated-vector>

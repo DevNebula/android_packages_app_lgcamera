@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/cinema_listview_item_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true" app:textAllCapsLocal="false" app:singleLine="false" app:lineSpacingExtra="-4dp" style="@style/selfie_filter_text"/>
+    </RelativeLayout>
+</RelativeLayout>

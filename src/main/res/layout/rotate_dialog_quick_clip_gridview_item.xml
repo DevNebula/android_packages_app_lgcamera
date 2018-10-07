@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?android:attr/activatedBackgroundIndicator" android:layout_width="72dp" android:layout_height="88dp">
+    <ImageView android:layout_gravity="center" android:id="@c0086id/share_app_icon" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="2.5dp" android:scaleType="fitCenter"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <TextView android:textSize="@dimen/quick_clip_item_text_size" android:textColor="#000000" android:ellipsize="marquee" android:gravity="top|center_vertical|center_horizontal|center" android:id="@c0086id/share_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2"/>
+    </LinearLayout>
+</LinearLayout>

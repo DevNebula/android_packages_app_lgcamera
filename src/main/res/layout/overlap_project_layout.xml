@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/overlap_project_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <GridView android:gravity="center" android:id="@c0086id/overlap_project_gridview" android:background="#222222" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="0dp" android:verticalSpacing="0dp" android:numColumns="2" android:layout_alignParentBottom="true" android:layoutDirection="locale"/>
+    </com.lge.camera.components.RotateLayout>
+    <View android:id="@c0086id/overlap_project_black_cover" android:background="@color/setting_mode_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignTop="@c0086id/overlap_project_rotate_layout" android:layout_alignBottom="@c0086id/overlap_project_rotate_layout"/>
+</RelativeLayout>

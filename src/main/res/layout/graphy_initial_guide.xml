@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@c0085drawable/camera_cine_help_bubble_ver" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@c0086id/graphy_init_guide_txt" android:paddingTop="@dimen/graphy_ev_guide_text_padding1" android:paddingBottom="@dimen/graphy_ev_guide_text_padding1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_view_long_press_hint" android:paddingStart="@dimen/graphy_ev_guide_text_padding2" android:paddingEnd="@dimen/graphy_ev_guide_text_padding2" style="@style/type_b01_dp_white"/>
+</RelativeLayout>

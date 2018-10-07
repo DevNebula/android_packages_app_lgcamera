@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@c0086id/binning_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@c0086id/binning_icon_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/binning_icon_button" android:background="@c0085drawable/btn_sum_binning_icon" android:clickable="true" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginLeft="16dp" android:layout_marginBottom="259.1953dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:contentDescription="@string/setting_bright_mode"/>
+    </RelativeLayout>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/binning_guide_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="center_horizontal" android:id="@c0086id/binning_suggestion_text" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_marginBottom="208.8dp" android:text="@string/bright_mode_toast_suggestion" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="50dp" android:layout_marginEnd="50dp" style="@style/snap_movie_guide_text"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

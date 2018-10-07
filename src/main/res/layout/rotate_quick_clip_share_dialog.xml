@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@c0086id/backcover" android:background="@color/backcover_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <RelativeLayout android:id="@c0086id/rotate_dialog_margin_layout" android:paddingTop="30dp" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/rotate_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/dialog_background">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/quick_clip_dialog_title_height">
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/sp_share_via_NORMAL" android:layout_weight="1" android:layout_marginStart="16dp"/>
+                </LinearLayout>
+                <LinearLayout android:id="@c0086id/rotate_dialog_inner_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <GridView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:layout_gravity="center" android:id="@c0086id/resolver_list_lg" android:paddingBottom="@dimen/quick_clip_grid_bottom_padding" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:verticalSpacing="@dimen/quick_clip_grid_vertical_space" android:stretchMode="none" android:columnWidth="@dimen/quick_clip_grid_column_width" android:numColumns="3" android:layoutDirection="ltr" android:paddingStart="@dimen/quick_clip_grid_start_padding" android:paddingEnd="@dimen/quick_clip_grid_start_padding" android:nestedScrollingEnabled="true"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

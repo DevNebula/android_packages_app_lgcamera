@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dummy_basic">@string/auto</string>
+    <string name="dummy_basic_help_normal_cone_supported_manual_not_supported">@string/camera_help_normal_shot_desc_cone_supported_manual_not_supported</string>
+    <string name="dummy_basic_help_normal_manual_photo_only">@string/camera_help_normal_shot_desc_manual_photo_only</string>
+</resources>

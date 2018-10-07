@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/graphy_ev_guild_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/graphy_ev_guide_max_width1">
+    <RelativeLayout android:id="@c0086id/graphy_ev_box" android:background="@c0085drawable/camera_graphy_help_box" android:layout_width="@dimen/graphy_ev_box_width" android:layout_height="@dimen/graphy_ev_box_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <RelativeLayout android:gravity="center" android:id="@c0086id/graphy_ev_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@c0086id/graphy_ev_text" android:paddingTop="@dimen/graphy_ev_guide_text_padding1" android:paddingBottom="@dimen/graphy_ev_guide_text_padding1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/graphy_ev_guide_text_padding2" android:paddingEnd="@dimen/graphy_ev_guide_text_padding2" style="@style/type_b01_dp_white"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="end" android:id="@c0086id/time_lapse_fps_selector_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@c0086id/time_lapse_child_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@c0086id/time_lapse_child_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/time_lapse_speed60_btn" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/setting_time_lapse_speed_60" android:contentDescription="@string/sp_time_lapse_speed_60"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/time_lapse_speed30_btn" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/setting_time_lapse_speed_30" android:contentDescription="@string/sp_time_lapse_speed_30"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/time_lapse_speed15_btn" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/setting_time_lapse_speed_15" android:contentDescription="@string/sp_time_lapse_speed_15"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/time_lapse_speed10_btn" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/setting_time_lapse_speed_10" android:contentDescription="@string/sp_time_lapse_speed_10"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/time_lapse_parent_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@c0086id/time_lapse_child_view">
+        <ImageView android:id="@c0086id/time_lapse_parent_item_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_icon_setting_multiview_arrow" android:layout_centerVertical="true"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/time_lapse_parent_item_btn" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/setting_time_lapse_speed_15" android:contentDescription="@string/time_lapse_speed_titleid" android:layout_marginEnd="@dimen/quick_button_margin" android:layout_toEndOf="@c0086id/time_lapse_parent_item_arrow"/>
+    </RelativeLayout>
+</RelativeLayout>

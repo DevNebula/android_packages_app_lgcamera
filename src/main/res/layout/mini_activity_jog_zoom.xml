@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@c0086id/jog_zoom_controller_rotate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:id="@c0086id/jog_zoom_w_image_btn_layout" android:layout_width="@dimen/mini_activity_zoom_bar_text_size" android:layout_height="@dimen/mini_activity_zoom_bar_text_size" android:contentDescription="@string/jog_zoom_w_button_talkback">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/jog_zoom_w_image_btn" android:background="@c0085drawable/btn_camera_jog_zoom_w" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <com.lge.camera.components.HorizontalSeekBar android:id="@c0086id/mini_activity_zoom_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/jog_zoom_bar_talkback"/>
+            <RelativeLayout android:gravity="center" android:id="@c0086id/jog_zoom_t_image_btn_layout" android:layout_width="@dimen/mini_activity_zoom_bar_text_size" android:layout_height="@dimen/mini_activity_zoom_bar_text_size" android:contentDescription="@string/jog_zoom_t_button_talkback">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/jog_zoom_t_image_btn" android:background="@c0085drawable/btn_camera_jog_zoom_t" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

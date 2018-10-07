@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@c0085drawable/selector_command_bg"/>
+    <item android:drawable="@c0085drawable/shutter_trashcan_normal"/>
+</layer-list>

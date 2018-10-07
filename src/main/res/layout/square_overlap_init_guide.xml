@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lge.camera.components.RotateLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/square_grid_init_guide_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@c0086id/square_grid_init_guide_portrait_view" android:background="#e5000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="locale">
+            <TextView android:gravity="center" android:id="@c0086id/square_help_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/guide_shot_help_title" android:layout_alignParentTop="true" style="@style/type_d01_dp_white_bold"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@c0086id/square_help_title">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@c0086id/overlap_init_guide_imageview_portrait" android:background="@c0085drawable/camera_cell_coach_image_guide_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_grid_init_guide_text_top_margin" android:text="@string/cell_guide_coach_text" android:layout_marginStart="@dimen/square_mode_grid_init_guide_text_side_margin" android:layout_marginEnd="@dimen/square_mode_grid_init_guide_text_side_margin" style="@style/type_b01_dp_white"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@c0086id/square_guide_controls_port" android:layoutDirection="locale">
+                <CheckBox android:id="@c0086id/square_mode_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@c0085drawable/selector_checkbox_button" android:text="@string/sp_eula_popup_do_not_show_this_again_NORMAL" android:layout_centerVertical="true" android:paddingStart="@dimen/init_guide_checkbox_inner_padding" android:layout_marginStart="@dimen/square_mode_init_guide_checkbox_start_margin" android:layout_alignParentStart="true" style="@style/type_d02_dp_white"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/square_guide_controls_port" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="locale">
+                <Button android:textSize="@dimen/square_help_button_textSize" android:textColor="@color/color_checkbox" android:id="@c0086id/grid_ok_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" android:layout_marginStart="@dimen/square_mode_init_guide_checkbox_start_margin" android:layout_alignParentEnd="true" style="?android:attr/buttonBarButtonStyle"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@c0086id/square_grid_init_guide_landscape_view" android:background="#e5000000" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="center" android:id="@c0086id/square_help_title_land" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/guide_shot_help_title" android:layout_alignParentTop="true" style="@style/type_d01_dp_white_bold"/>
+            <LinearLayout android:orientation="horizontal" android:id="@c0086id/overlap_item_wrapper_land" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@c0086id/square_help_title_land" android:layoutDirection="locale">
+                <ImageView android:id="@c0086id/overlap_init_guide_imageview_landscape" android:background="@c0085drawable/camera_cell_coach_image_guide_land_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cell_guide_coach_text" android:textDirection="locale" android:layout_marginStart="@dimen/square_help_guide_startMargin_land" android:layout_marginEnd="@dimen/square_help_guide_startMargin_land" style="@style/type_b01_dp_white"/>
+            </LinearLayout>
+            <RelativeLayout android:id="@c0086id/square_mode_check_box_land_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@c0086id/square_guide_controls_land" android:layoutDirection="locale">
+                <CheckBox android:id="@c0086id/square_mode_check_box_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@c0085drawable/selector_checkbox_button" android:text="@string/sp_eula_popup_do_not_show_this_again_NORMAL" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/type_d02_dp_white"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/square_guide_controls_land" android:paddingBottom="@dimen/square_mode_grid_init_guide_button_bottom_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="locale" android:layout_marginEnd="@dimen/navigation_bar_height">
+                <Button android:textSize="@dimen/square_help_button_textSize" android:textColor="@color/color_checkbox" android:id="@c0086id/grid_ok_button_land" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" android:layout_marginStart="@dimen/square_mode_init_guide_checkbox_start_margin_land" android:layout_alignParentEnd="true" style="?android:attr/buttonBarButtonStyle"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</com.lge.camera.components.RotateLayout>

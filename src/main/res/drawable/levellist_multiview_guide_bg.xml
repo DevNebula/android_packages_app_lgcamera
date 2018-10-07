@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@c0085drawable/camera_multiview_bg_type_01" android:maxLevel="1"/>
+    <item android:drawable="@c0085drawable/camera_multiview_bg_type_02" android:maxLevel="2"/>
+    <item android:drawable="@c0085drawable/camera_multiview_bg_type_03" android:maxLevel="3"/>
+    <item android:drawable="@c0085drawable/camera_multiview_bg_type_04" android:maxLevel="4"/>
+</level-list>

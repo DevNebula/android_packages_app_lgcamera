@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <stroke android:width="@dimen/sticker_item_selection_line_thick" android:color="#fff200"/>
+    <solid android:color="#00000000"/>
+    <size android:height="@dimen/sticker_item_height" android:width="@dimen/sticker_item_height"/>
+    <corners android:radius="0dp"/>
+</shape>

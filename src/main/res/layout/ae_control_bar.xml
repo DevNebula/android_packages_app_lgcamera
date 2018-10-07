@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/ae_control_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/ae_control_bar_wrapper" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.lge.camera.components.RotateImageView android:id="@c0086id/ae_control_bar_start_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_focus_sun_minus"/>
+        <com.lge.camera.components.AeControlBar android:id="@c0086id/ae_control_bar" android:layout_width="@dimen/ae_control_bar_width" android:layout_height="match_parent"/>
+        <com.lge.camera.components.RotateImageView android:id="@c0086id/ae_control_bar_end_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_focus_sun_plus"/>
+    </LinearLayout>
+</RelativeLayout>

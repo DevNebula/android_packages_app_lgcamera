@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#e5000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@c0086id/photo_size_help_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+        <RelativeLayout android:gravity="center_horizontal" android:id="@c0086id/photo_size_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:id="@c0086id/photo_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_size_help_title" android:layout_alignParentTop="true" style="@style/type_ai03_dp_white_bold"/>
+        </RelativeLayout>
+        <ScrollView android:id="@c0086id/photo_size_help_scroll" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@c0086id/photo_size_title_layout">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@c0086id/photo_size_title_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_size_help_title_desc" android:layout_alignParentStart="true" style="@style/type_ag02_dp_white"/>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@c0086id/photo_size_content_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@c0086id/photo_size_title_desc" android:layoutDirection="locale">
+                    <LinearLayout android:orientation="vertical" android:id="@c0086id/photo_size_1_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <RelativeLayout android:id="@c0086id/photo_size_radio_1_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <RadioButton android:id="@c0086id/photo_size_radio_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@c0085drawable/selector_radio_button" android:text="@string/photo_size_radio_text_1" style="@style/type_ai03_dp_white"/>
+                        </RelativeLayout>
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@c0086id/photo_size_image_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_initail_image_photo_size_land_01"/>
+                        <TextView android:id="@c0086id/photo_size_desc_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_size_help_desc_1" style="@style/type_ag02_dp_white"/>
+                    </LinearLayout>
+                    <View android:layout_gravity="center_vertical" android:id="@c0086id/photo_size_divider" android:background="#33ffffff" android:layout_width="@dimen/photo_size_divider_height" android:layout_height="match_parent"/>
+                    <LinearLayout android:orientation="vertical" android:id="@c0086id/photo_size_2_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <RelativeLayout android:id="@c0086id/photo_size_radio_2_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <RadioButton android:id="@c0086id/photo_size_radio_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@c0085drawable/selector_radio_button" android:text="@string/photo_size_radio_text_2" style="@style/type_ai03_dp_white"/>
+                        </RelativeLayout>
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@c0086id/photo_size_image_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_initail_image_photo_size_land_02"/>
+                        <TextView android:id="@c0086id/photo_size_desc_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_size_help_desc_2_1" style="@style/type_ag02_dp_white"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@c0086id/recording_preview_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@c0086id/photo_size_content_layout" android:layoutDirection="locale"/>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

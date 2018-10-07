@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <RelativeLayout android:layout_width="@dimen/quick_button_menu_item_width" android:layout_height="@dimen/quick_button_menu_item_width" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+        <ImageView android:id="@c0086id/menu_button" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/quick_button_menu_item_width" android:layout_height="@dimen/quick_button_menu_item_width" android:src="@c0085drawable/btn_menu_view_button" android:contentDescription="@string/talkback_menu_button"/>
+        <ImageView android:id="@c0086id/menu_button_bg" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/quick_button_menu_item_width" android:layout_height="@dimen/quick_button_menu_item_width" android:src="@c0085drawable/btn_solar_focused" android:scaleType="fitXY" android:contentDescription="@string/talkback_menu_button" android:layoutDirection="ltr"/>
+    </RelativeLayout>
+</merge>

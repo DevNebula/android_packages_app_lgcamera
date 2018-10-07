@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/mini_activity_layout" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/cone_view_mode"/>
+</FrameLayout>

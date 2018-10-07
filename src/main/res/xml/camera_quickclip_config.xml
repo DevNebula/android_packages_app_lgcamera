@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preference xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item name="default">
+        <package name="com.facebook.katana"/>
+        <package name="com.twitter.android"/>
+        <package name="com.tumblr"/>
+        <package name="com.instagram.android"/>
+        <package name="com.whatsapp"/>
+        <package name="com.skype.raider"/>
+        <package name="co.vine.android"/>
+        <package name="com.kakao.talk"/>
+        <package name="jp.naver.line.android"/>
+    </item>
+    <item name="photo">
+        <package name="DEF.MSG"/>
+        <package name="com.google.android.gm"/>
+        <package name="com.lge.qmemoplus"/>
+        <package name="com.android.bluetooth"/>
+        <package name="com.android.calendar"/>
+        <package name="com.google.android.apps.docs"/>
+        <package name="com.google.android.apps.plus"/>
+    </item>
+    <item name="video">
+        <package name="com.google.android.youtube"/>
+        <package name="DEF.MSG"/>
+        <package name="com.google.android.gm"/>
+        <package name="com.lge.qmemoplus"/>
+        <package name="com.android.bluetooth"/>
+        <package name="com.google.android.apps.docs"/>
+        <package name="com.google.android.apps.plus"/>
+    </item>
+</Preference>

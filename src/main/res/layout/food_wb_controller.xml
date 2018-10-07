@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@c0086id/food_wb_controller" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <SeekBar android:id="@c0086id/food_wb_seekBar" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="20" android:progress="10" android:progressDrawable="@c0085drawable/bg_camera_food_progressbar" android:thumb="@c0085drawable/ic_camera_cursor" android:layout_centerInParent="true" android:contentDescription="@string/white_balance" android:splitTrack="false"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/food_wb_btn" android:background="@c0085drawable/btn_food_wb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/white_balance" android:layout_marginStart="@dimen/food_wb_btn_startMargin" app:text="@string/btn_food_wb_PrDdefault" style="@style/graphy_button_text"/>
+    </RelativeLayout>
+</RelativeLayout>

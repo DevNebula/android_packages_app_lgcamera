@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/thumbnail_pager_root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@c0086id/thumbnail_list_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@c0086id/thumbnail_list_backcover" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/tile_preview_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v4.view.ViewPager android:id="@c0086id/thumbnail_list_view_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stackFromBottom="true"/>
+        </com.lge.camera.components.RotateLayout>
+        <RelativeLayout android:id="@c0086id/detail_animation_view_bg" android:background="@color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/camera_roll_animation_rear_view_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@c0086id/camera_roll_animation_rear_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.lge.camera.components.RotateLayout>
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/camera_roll_animation_front_view_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@c0086id/camera_roll_animation_front_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.lge.camera.components.RotateLayout>
+        <RelativeLayout android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/thumbnail_pager_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/panel_marginEnd" android:layout_marginRight="@dimen/tile_preivew_badge_marginRight" android:scaleType="center" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/thumbnail_pager_button_delete" android:background="@c0085drawable/selector_quick_view_delete_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/extra_button_marginTop" android:scaleType="center" android:contentDescription="@string/dlg_title_delete" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/detail_animation_view_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:gravity="center" android:id="@c0086id/detail_animation_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/> /&gt;\10
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

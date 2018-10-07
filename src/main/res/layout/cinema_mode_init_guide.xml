@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lge.camera.components.RotateLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/cinema_init_guide_rotate_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <FrameLayout android:background="#e5000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@c0086id/cinema_init_guide_top_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <RelativeLayout android:gravity="center" android:id="@c0086id/cinema_init_guide_title" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shot_mode_cine_video" style="@style/type_ai03_dp_white_bold"/>
+                </RelativeLayout>
+                <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:id="@c0086id/cinema_init_guide_filter_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <FrameLayout android:layout_gravity="center_horizontal" android:id="@c0086id/cinema_init_guide_imageView_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@c0086id/cinema_init_guide_imageView" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@c0085drawable/levellist_cinema_init_guide_filter_image" android:adjustViewBounds="true"/>
+                            </FrameLayout>
+                            <LinearLayout android:orientation="vertical" android:id="@c0086id/cinema_init_guide_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/initial_guide_title_cine_effect_look_preset" android:drawablePadding="@dimen/cinema_init_guide_subTitle_drawablePadding" android:drawableStart="@c0085drawable/camera_initail_ic_cine_filter" android:textDirection="locale" style="@style/type_ai03_dp_white_bold"/>
+                                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cinema_init_guide_content_marginTop" android:text="@string/initial_guide_contents_cine_effect4" android:textDirection="locale" style="@style/type_ag02_dp_white"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@c0086id/cinema_init_guide_zoom_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <FrameLayout android:layout_gravity="center_horizontal" android:id="@c0086id/cinema_init_guide_imageView_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@c0086id/cinema_init_guide_imageView" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@c0085drawable/levellist_cinema_init_guide_zoom_image" android:adjustViewBounds="true"/>
+                                <ImageView android:id="@c0086id/cinema_init_guide_imageView_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@c0085drawable/camera_initial_image_cine_zoom_in" android:adjustViewBounds="true"/>
+                            </FrameLayout>
+                            <LinearLayout android:orientation="vertical" android:id="@c0086id/cinema_init_guide_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/initial_guide_title_point_zoom" android:drawablePadding="@dimen/cinema_init_guide_subTitle_drawablePadding" android:drawableStart="@c0085drawable/camera_initail_ic_cine_zoom" android:textDirection="locale" style="@style/type_ai03_dp_white_bold"/>
+                                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cinema_init_guide_content_marginTop" android:text="@string/initial_guide_contents_point_zoom2" android:textDirection="locale" style="@style/type_ag02_dp_white"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@c0086id/cinema_init_guide_bottom" android:paddingBottom="@dimen/navigation_bar_height" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@c0086id/cinema_init_guide_checkBox_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/init_guide_checkbox_inner_padding">
+                    <CheckBox android:id="@c0086id/cinema_init_guide_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@c0085drawable/selector_checkbox_button" android:text="@string/sp_eula_popup_do_not_show_this_again_NORMAL" android:paddingStart="@dimen/init_guide_checkbox_inner_padding" style="@style/type_d02_dp_white"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+                    <Button android:textSize="@dimen/square_help_button_textSize" android:textColor="@color/color_checkbox" android:id="@c0086id/cinema_init_guide_ok_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" style="?android:attr/buttonBarButtonStyle"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.lge.camera.components.RotateLayout>

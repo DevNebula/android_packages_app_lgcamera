@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/manual_audio_control_layout" android:background="@c0085drawable/bg_camera_manual_video_audio_panel" android:visibility="gone" android:layout_width="@dimen/manual_audio_control_balance_width" android:layout_height="@dimen/manual_audio_control_panel_height">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/phone_audio_control_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@c0086id/manual_audio_wave_bar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.lge.camera.components.WaveView android:id="@c0086id/manual_audio_waveview" android:background="@c0085drawable/wave_background" android:layout_width="match_parent" android:layout_height="@dimen/manual_audio_lmt_guide_line_height" android:layout_alignParentTop="true"/>
+                <RelativeLayout android:id="@c0086id/manual_audio_control_bar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@c0086id/manual_audio_waveview">
+                    <RelativeLayout android:id="@c0086id/gain_bar_layout" android:layout_width="@dimen/manual_audio_controlbar_width" android:layout_height="wrap_content">
+                        <com.lge.camera.components.AudioControlBar android:id="@c0086id/phone_audio_gain_control_bar" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@c0086id/lcf_bar_layout" android:layout_width="@dimen/manual_audio_controlbar_width" android:layout_height="wrap_content" android:layout_toEndOf="@c0086id/gain_bar_layout">
+                        <com.lge.camera.components.AudioControlStepBar android:id="@c0086id/audio_lcf_control_bar" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@c0086id/lmt_bar_layout" android:layout_width="@dimen/manual_audio_controlbar_width" android:layout_height="wrap_content" android:layout_toEndOf="@c0086id/lcf_bar_layout">
+                        <com.lge.camera.components.AudioOffStepBar android:id="@c0086id/audio_lmt_control_bar" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/audio_balance_control_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:contentDescription="@string/mic_directivity" android:layout_toEndOf="@c0086id/manual_audio_wave_bar_layout">
+                <ImageView android:id="@c0086id/audio_balance_controller_image1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/manual_audio_control_directivity_bar_marginTop" android:src="@c0085drawable/camera_manual_video_audio_panel_directivity_infinity" android:layout_centerHorizontal="true"/>
+                <com.lge.camera.components.AudioBalanceController android:id="@c0086id/audio_balance_controller" android:layout_width="@dimen/manual_audio_control_bar_layout_width" android:layout_height="@dimen/manual_audio_control_bar_dot_layout_height" android:layout_below="@c0086id/audio_balance_controller_image1" android:layout_centerHorizontal="true"/>
+                <ImageView android:id="@c0086id/audio_balance_controller_image2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/manual_audio_control_directivity_bar_marginTop" android:src="@c0085drawable/camera_manual_video_audio_panel_directivity_nearby" android:layout_below="@c0086id/audio_balance_controller" android:layout_centerHorizontal="true"/>
+                <com.lge.camera.components.RotateTextView android:id="@c0086id/audio_balance_control_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/manual_audio_control_directivity_bar_marginTop" android:layout_below="@c0086id/audio_balance_controller_image2" android:layout_centerHorizontal="true" lge:text="@string/manual_audio_directivity_title" style="@style/manual_audio_control_directivity_text"/>
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:id="@c0086id/audio_button_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentEnd="true">
+                <RelativeLayout android:id="@c0086id/mic_button_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageButton android:id="@c0086id/phone_audio_gain_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/audio_phone_mic" android:contentDescription="@string/phone_mic"/>
+                    <ImageButton android:id="@c0086id/earphone_audio_gain_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/audio_ear_mic" android:layout_below="@c0086id/phone_audio_gain_button" android:contentDescription="@string/headset_mic"/>
+                    <ImageButton android:id="@c0086id/bt_audio_gain_button" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/bluetooth_mic"/>
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@c0086id/wind_noise_filter_checkbox_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@c0086id/wind_noise_filter_text_button" android:background="@c0085drawable/btn_wind_noise_filter_off" android:paddingTop="@dimen/manual_audio_popup_wind_noise_filter_btn_paddingTop" android:paddingBottom="@dimen/manual_audio_wind_noise_filter_text_marginBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manual_audio_wind_noise_filter_title" android:layout_alignParentBottom="true" android:lineSpacingExtra="@dimen/manual_audio_wind_noise_filter_text_linespacing" android:contentDescription="@string/wind_noise_filter_switch" style="@style/manual_audio_control_text"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

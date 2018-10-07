@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/initial_help_rotate_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <android.support.v4.view.ViewPager android:id="@c0086id/initial_help_viewpager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/initial_help_index_layout_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@c0086id/ok_button_layout" android:layout_alignParentBottom="true">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@c0086id/initial_help_index_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/command_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="locale">
+                <Button android:textSize="@dimen/square_help_button_textSize" android:textColor="@color/color_checkbox" android:id="@c0086id/previous_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/previous" android:maxLines="2" android:layout_alignParentStart="true" style="?android:attr/buttonBarButtonStyle"/>
+                <Button android:textSize="@dimen/square_help_button_textSize" android:textColor="@color/color_checkbox" android:id="@c0086id/next_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next" android:maxLines="2" android:layout_alignParentEnd="true" style="?android:attr/buttonBarButtonStyle"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

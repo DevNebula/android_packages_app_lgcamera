@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@c0086id/cinema_lut_controller" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@c0086id/cine_effect_cover" android:background="@c0085drawable/cine_effect_circle_cover" android:visibility="gone" android:layout_width="@dimen/cinema_listView_cover_width" android:layout_height="@dimen/cinema_listView_cover_width"/>
+    <RelativeLayout android:layout_gravity="bottom" android:background="@color/filter_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/cinema_lut_listview_rotateLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@c0086id/cinema_lut_listview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="@dimen/cinema_listView_divider_height" android:overScrollMode="never" android:paddingStart="@dimen/cinema_listView_padding" android:paddingEnd="@dimen/cinema_listView_padding"/>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/extra_preview_ui_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@c0086id/extra_preview_ui_top_menu_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layoutDirection="rtl">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/edit_button" android:background="@c0085drawable/btn_quickbutton_edit" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/edit" android:layoutDirection="ltr" android:layout_marginStart="@dimen/mode_edit_button_margin_end" style="@style/selfie_button_text"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/download_button" android:background="@c0085drawable/btn_quickbutton_download" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/download" android:layoutDirection="ltr" android:layout_marginStart="@dimen/mode_download_button_margin_end" style="@style/selfie_button_text"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@c0086id/extra_preview_ui_bottom_menu_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@c0086id/skin_tone_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/extra_bottom_button_margin">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/skin_tone_button" android:background="@c0085drawable/btn_advanced_selfie_skin_tone_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/Advanced_beauty_skin_tone" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/relighting_menu_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/extra_bottom_button_margin">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/relighting_menu_button" android:background="@c0085drawable/btn_advanced_selfie_lighting_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/Advanced_beauty_relighting" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/filter_menu_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/filter_menu_button" android:background="@c0085drawable/btn_filter_filter_off" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/Advanced_beauty_filter" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/sticker_menu_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/extra_bottom_button_margin">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/sticker_menu_button" android:background="@c0085drawable/btn_filter_sticker_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/sticker_title_text" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

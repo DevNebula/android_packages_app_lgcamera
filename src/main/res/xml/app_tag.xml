@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taginfo xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <project>LG_apps/android/vendor/lge/apps/CameraApp5
+    </project>
+    <branch>release_7.0
+    </branch>
+    <commit>dd19cce17a0f71e7bfebfa4736f273ac6dceccda
+    </commit>
+    <build_digest>a0445cd0b5aa4c45f0eca7b9776135cdac319479
+    </build_digest>
+</taginfo>

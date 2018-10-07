@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/setting_integrate_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@c0086id/setting_integrate_background_view" android:background="@color/setting_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+            <LinearLayout android:orientation="vertical" android:id="@c0086id/setting_parent_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+                <com.lge.camera.components.RotateLayout android:id="@c0086id/setting_parent_rotate_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+                    <include layout="@layout/setting_parent_listview"/>
+                </com.lge.camera.components.RotateLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@c0086id/setting_quicksetting_layout" android:background="@color/setting_section" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="ltr"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@c0086id/setting_child_view" android:background="@color/backcover_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/setting_child_rotate_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+            <include layout="@layout/setting_child_popup_view"/>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</FrameLayout>

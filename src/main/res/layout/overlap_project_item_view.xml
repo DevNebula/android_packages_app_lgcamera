@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/project_view_layout" android:background="#222222" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@c0086id/project_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <RelativeLayout android:id="@c0086id/captured_cnt_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/guide_shot_project_badge_margin">
+        <ImageView android:id="@c0086id/captured_cnt" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/btn_overlap_project_badge_number"/>
+    </RelativeLayout>
+    <ImageView android:id="@c0086id/add_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/guide_shot_project_badge_margin" android:src="@c0085drawable/btn_overlap_project_add"/>
+</RelativeLayout>

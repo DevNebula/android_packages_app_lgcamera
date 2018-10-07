@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/manual_base" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lge.camera.components.RatioGuideView android:id="@c0086id/manual_base_ratio_guide_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/manual_base_panel" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/manual_base_drum_layout_rotate" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.lge.camera.components.RotateLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@c0086id/manual_audio_level_meter_layout_rotate" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.lge.camera.components.RotateLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@c0086id/manual_audio_control_layout_rotate" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

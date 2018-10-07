@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/rotate_dialog_listview_item_height" android:paddingStart="@dimen/rotate_dialog_listview_item_paddingStart" android:paddingEnd="@dimen/rotate_dialog_listview_item_paddingStart">
+        <TextView android:textAppearance="@style/rotate_dialog_listview_item_text" android:id="@c0086id/item_key" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+        <RadioButton android:id="@c0086id/item_radio_button" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@c0085drawable/selector_radio_button" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@c0085drawable/avd_manual_stop_rec_1">
+    <target android:name="rec_stop" android:animation="@c0085drawable/avd_manual_stop_rec_2"/>
+</animated-vector>

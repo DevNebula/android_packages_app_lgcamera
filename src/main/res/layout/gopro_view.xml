@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/gopro_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.lge.camera.components.RotateLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@c0086id/gopro_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+            <VideoView android:id="@c0086id/preview_video_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <SurfaceView android:id="@c0086id/preview_surface_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextureView android:id="@c0086id/gopro_preview_texture_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <CheckBox android:textAppearance="@style/inline_guide_text" android:textColor="@android:color/tertiary_text_light" android:id="@c0086id/gopro_checkBox_power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="180dp" android:text="Power " android:layout_alignParentEnd="true"/>
+        <CheckBox android:textAppearance="@style/inline_guide_text" android:textColor="@android:color/tertiary_text_light" android:id="@c0086id/gopro_checkBox_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Preview " android:layout_below="@c0086id/gopro_checkBox_power" android:layout_alignParentEnd="true"/>
+        <CheckBox android:textAppearance="@style/inline_guide_text" android:textColor="@android:color/tertiary_text_light" android:id="@c0086id/gopro_checkBox_recording" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recording " android:layout_below="@c0086id/gopro_checkBox_preview" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</FrameLayout>

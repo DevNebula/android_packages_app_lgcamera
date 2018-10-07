@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+    <RelativeLayout android:id="@c0086id/quick_window_camera_view" android:layout_width="@dimen/quick_window_height" android:layout_height="@dimen/quick_window_width" android:layout_centerHorizontal="true">
+        <ImageView android:id="@c0086id/quick_window_anim_img" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" android:layoutDirection="ltr"/>
+    </RelativeLayout>
+</RelativeLayout>

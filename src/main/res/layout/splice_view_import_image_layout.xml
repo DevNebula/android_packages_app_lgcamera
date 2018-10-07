@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@c0086id/splice_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="center" android:id="@c0086id/splice_pre_post_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@c0086id/splice_pre_post_view_first_bg" android:background="#222222" android:visibility="gone" android:layout_width="360dp" android:layout_height="360dp" android:layout_alignParentTop="true"/>
+        <com.lge.camera.components.TouchImageView android:id="@c0086id/splice_pre_post_view_first" android:background="#222222" android:visibility="gone" android:layout_width="360dp" android:layout_height="360dp" android:layout_alignParentTop="true"/>
+        <ImageView android:id="@c0086id/splice_pre_post_view_second_bg" android:background="#222222" android:visibility="gone" android:layout_width="360dp" android:layout_height="360dp" android:layout_alignParentBottom="true"/>
+        <com.lge.camera.components.TouchImageView android:id="@c0086id/splice_pre_post_view_second" android:visibility="gone" android:layout_width="360dp" android:layout_height="360dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:id="@c0086id/splice_swap_button_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@c0086id/splice_swap_button" android:background="@c0085drawable/splice_swap_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/talkback_cell_swap_screen_button_rev2" android:layoutDirection="ltr"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/splice_import_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginStart="12dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="350">
+            <RelativeLayout android:id="@c0086id/splice_import_button_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="36">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/splice_import_button" android:background="@c0085drawable/splice_import_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/add_images"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="24.8"/>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="44" android:layout_toRightOf="@c0086id/splice_import_button_layout">
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/splice_rotate_button" android:background="@c0085drawable/splice_rotate_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/talkback_cell_image_rotate_button"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="245.2"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/dualview_button_all" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@c0086id/dualview_button_layout_top" android:visibility="visible" android:layout_width="360dp" android:layout_height="360dp" android:layout_alignParentTop="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@c0086id/dual_button_parent_layout_top" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layoutDirection="ltr">
+                <com.lge.camera.components.RotateImageButton android:layout_gravity="center" android:id="@c0086id/btn_dualview_normal_range_top" android:background="@c0085drawable/btn_dualview_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_dual_view_icon_normal_angle_normal" android:contentDescription="@string/selfie_camera" lge:rotateIconOnly="true"/>
+                <com.lge.camera.components.RotateImageButton android:layout_gravity="center" android:id="@c0086id/btn_dualview_wide_range_top" android:background="@c0085drawable/btn_dualview_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:src="@c0085drawable/camera_dual_view_icon_normal_multi_angle_normal" android:contentDescription="@string/groupfie_camera" lge:rotateIconOnly="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@c0086id/dualview_button_layout_bottom" android:visibility="invisible" android:layout_width="360dp" android:layout_height="360dp" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@c0086id/dual_button_parent_layout_bottom" android:layout_width="wrap_content" android:layout_height="match_parent" android:weightSum="10" android:layout_alignParentRight="true" android:layoutDirection="ltr">
+                <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="9">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                        <com.lge.camera.components.RotateImageButton android:layout_gravity="center" android:id="@c0086id/btn_dualview_normal_range_bottom" android:background="@c0085drawable/btn_dualview_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_dual_view_icon_normal_angle_normal" android:contentDescription="@string/selfie_camera" lge:rotateIconOnly="true"/>
+                        <com.lge.camera.components.RotateImageButton android:layout_gravity="center" android:id="@c0086id/btn_dualview_wide_range_bottom" android:background="@c0085drawable/btn_dualview_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:src="@c0085drawable/camera_dual_view_icon_normal_multi_angle_normal" android:contentDescription="@string/groupfie_camera" lge:rotateIconOnly="true"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@c0086id/splice_guide_cue" android:background="@c0085drawable/camera_multiview_bg_type_01" android:visibility="gone" android:layout_width="23dp" android:layout_height="46dp" android:layout_centerInParent="true">
+            <RelativeLayout android:layout_width="21.5dp" android:layout_height="23dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <com.lge.camera.components.RotateTextView android:gravity="center" android:id="@c0086id/splice_guide_cue_top" android:visibility="visible" android:layout_width="21.5dp" android:layout_height="23dp" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="21.5dp" android:layout_height="23dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <com.lge.camera.components.RotateTextView android:gravity="center" android:id="@c0086id/splice_guide_cue_bottom" android:visibility="visible" android:layout_width="21.5dp" android:layout_height="23dp" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

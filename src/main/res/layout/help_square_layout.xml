@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/square_help_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layoutDirection="locale">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <android.support.v4.view.ViewPager android:id="@c0086id/square_help_viewpager" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/square_help_control_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <Button android:textSize="@dimen/square_help_button_textSize" android:id="@c0086id/square_help_ok_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" style="?android:attr/buttonBarButtonStyle"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/square_help_index_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@c0086id/square_help_index_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

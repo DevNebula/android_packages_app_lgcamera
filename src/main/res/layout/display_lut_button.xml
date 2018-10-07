@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.lge.camera.components.RotateImageButton android:id="@c0086id/manual_video_log_profile_display_lut_btn" android:background="#00000000" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/manual_lut_button_width" android:layout_height="@dimen/manual_lut_button_height" android:src="@c0085drawable/btn_manual_lut_pressed" android:scaleType="fitXY" android:contentDescription="@string/manual_video_log_profile_display_lut_3" android:layoutDirection="ltr" style="@style/manual_control_button_peaking"/>
+</RelativeLayout>

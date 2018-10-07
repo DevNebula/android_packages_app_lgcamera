@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <string name="app_build_date">01.06.2018 17:54:05
+    </string>
+    <string name="app_build_username">jeongheon.yoo
+    </string>
+    <string name="app_build_command">ba assembleCOM_COMRelease
+    </string>
+    <string name="app_build_os">Linux
+    </string>
+    <string name="app_build_pluginversion">2.2.3
+    </string>
+    <string name="app_build_lgepluginversion">2.2.5
+    </string>
+</resources>

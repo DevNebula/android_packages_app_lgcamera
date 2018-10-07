@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/container" android:layout_width="wrap_content" android:layout_height="@dimen/sticker_item_height">
+    <com.lge.camera.components.RotateImageView android:id="@c0086id/sticker_item" android:layout_width="@dimen/sticker_item_inner_size" android:layout_height="@dimen/sticker_item_inner_size" android:layout_margin="@dimen/sticker_item_inner_margin" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+    <ImageView android:id="@c0086id/item_selected" android:visibility="gone" android:layout_width="@dimen/sticker_item_height" android:layout_height="@dimen/sticker_item_height" android:src="@c0085drawable/shape_sticker_selected"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.lge.camera.components.CameraFocusFaceView android:id="@c0086id/face_focus_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <com.lge.camera.components.CameraFocusNormalView android:id="@c0086id/camera_focus_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <com.lge.camera.components.CameraManualModeFocusMultiWindowView android:id="@c0086id/manualmultifocus_af_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <com.lge.camera.components.CameraFocusTouchMoveView android:id="@c0086id/focus_touch_move" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@c0085drawable/focus_touch_taf" android:scaleType="center" android:layoutDirection="ltr"/>
+    <com.lge.camera.components.GestureGuideBox android:id="@c0086id/hand_shutter_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <com.lge.camera.components.RotateImageButton android:id="@c0086id/ev_shutter_button" android:background="@c0085drawable/selector_ev_shutter" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" android:contentDescription="@string/accessibility_shutter_button"/>
+    <com.lge.camera.components.QRCodeGuideBox android:id="@c0086id/qr_code_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+</merge>

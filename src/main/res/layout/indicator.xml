@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="top|right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:id="@c0086id/indicator_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr" android:paddingEnd="@dimen/indicators_paddingTop" android:layout_alignParentEnd="true"/>
+</merge>

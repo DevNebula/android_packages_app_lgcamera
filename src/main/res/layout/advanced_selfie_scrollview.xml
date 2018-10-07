@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/advanced_selfie_film_strength_rotate_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@c0086id/advanced_selfie_film_strength_seekbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+                <SeekBar android:id="@c0086id/selfie_film_strength_seekbar" android:background="@null" android:paddingBottom="@dimen/filter_strength_seekBar_paddingBottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="100" android:progressDrawable="@c0085drawable/solid_progress_drawable" android:thumb="@c0085drawable/camera_preview_setting_cursor_normal" android:contentDescription="@string/film_strength" android:paddingStart="@dimen/filter_strength_seekBar_paddingStart" android:paddingEnd="@dimen/filter_strength_seekBar_paddingEnd" android:splitTrack="false"/>
+            </RelativeLayout>
+            <TextView android:textStyle="bold" android:id="@c0086id/selfie_film_strength_seekBar_label_land" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/value_seekBar_label_max_width" android:text="@string/strength" android:includeFontPadding="false" style="@style/value_seekbar_text"/>
+            <TextView android:textStyle="bold" android:id="@c0086id/selfie_film_strength_seekBar_label_port" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strength" android:includeFontPadding="false" android:paddingStart="@dimen/filter_strength_seekBar_paddingStart" android:paddingEnd="@dimen/filter_strength_seekBar_paddingEnd" style="@style/value_seekbar_text"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/advanced_selfie_film_strength_text_rotate" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@c0086id/selfie_film_strength_seekbar_level" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/beautyBar_text"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+    <RelativeLayout android:id="@c0086id/selfie_filter_layout" android:background="@color/setting_mode_bg" android:paddingBottom="@dimen/advanced_selfie_scroll_marginStart" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/advanced_selfie_option_height" android:layout_marginBottom="@dimen/advanced_selfie_option_marginBottom" android:layout_alignParentBottom="true">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/selfie_filter_rotate" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ListView android:id="@c0086id/selfie_filter_listView" android:visibility="visible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:overScrollMode="never"/>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

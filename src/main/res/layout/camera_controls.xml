@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/camera_controls" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <include android:visibility="gone" layout="@layout/sticker_menu"/>
+    <include layout="@layout/menu_button"/>
+    <include layout="@layout/shutter_button_base"/>
+    <include layout="@layout/quick_button"/>
+    <include layout="@layout/indicator"/>
+    <include layout="@layout/quick_view"/>
+    <include layout="@layout/review_thumbnail"/>
+    <include layout="@layout/thumbnail_list"/>
+    <include layout="@layout/thumbnail_pager"/>
+</RelativeLayout>

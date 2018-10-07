@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:left="@dimen/quick_clip_handle_circle_startMargin">
+        <bitmap android:gravity="left|center_vertical|center_horizontal|center" android:src="@c0085drawable/camera_quick_clip_sns_bg_circle_normal" android:tileMode="disabled"/>
+    </item>
+</layer-list>

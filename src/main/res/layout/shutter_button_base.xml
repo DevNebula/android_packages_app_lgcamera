@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <RelativeLayout android:id="@c0086id/shutter_zoom_track" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/shutter_btn_base_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:background="@c0085drawable/camera_shutter_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/shutter_button_base_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/shutter_btn_base_height" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+        <RelativeLayout android:gravity="center" android:id="@c0086id/shutter_button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr">
+            <RelativeLayout android:layout_gravity="center" android:id="@c0086id/shutter_bottom_comp_layout" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <ImageView android:id="@c0086id/shutter_zoom_cue" android:background="@c0085drawable/camera_shutter_zoom_default" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+                <com.lge.camera.components.ShutterButton android:id="@c0086id/shutter_bottom_comp" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_bottom_comp_type" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@c0086id/shutter_top_comp_layout" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_marginStart="@dimen/extra_button_marginTop" android:layout_alignParentStart="true">
+            <com.lge.camera.components.ShutterButton android:id="@c0086id/shutter_top_comp" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_top_comp_type" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/shutter_large_comp_layout" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/shutter_btn_base_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@c0086id/shutter_zoom_cue_for_large" android:background="@c0085drawable/camera_shutter_zoom_default" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+                <com.lge.camera.components.ShutterButtonBase android:id="@c0086id/shutter_large_comp" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:soundEffectsEnabled="false"/>
+                <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_large_comp_type" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@c0086id/morphing_anim_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/shutter_btn_base_height" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/morphing_anim_view_capture_rotateview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@c0086id/morphing_anim_view_capture_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </com.lge.camera.components.RotateLayout>
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/morphing_anim_view_recording_rotateview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/extra_button_marginTop" android:layout_alignParentStart="true">
+            <ImageView android:id="@c0086id/morphing_anim_view_recording_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@c0086id/shutter_button_base_rear_anim_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/shutter_btn_base_height" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_top_comp_rear_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_bottom_comp_rear_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/extra_button_marginTop" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/shutter_large_comp_anim_layout" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/shutter_btn_base_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_large_comp_type_anim" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_large_comp_type_anim2" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_large_comp_type_anim3" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@c0086id/shutter_button_base_front_anim_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/shutter_btn_base_height" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_top_comp_front_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/shutter_bottom_comp_front_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/extra_button_marginTop" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <com.lge.camera.components.RotateImageButton android:layout_gravity="center_vertical" android:id="@c0086id/extra_button_top_comp" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/panel_marginEnd" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true"/>
+    <com.lge.camera.components.RotateImageButton android:layout_gravity="center_vertical" android:id="@c0086id/extra_button_bottom_comp" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/panel_marginEnd" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_marginStart="@dimen/extra_button_marginTop" android:layout_alignParentStart="true"/>
+    <View android:layout_width="1px" android:layout_height="1px" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    <View android:id="@c0086id/shutter_btn_dummy" android:focusable="false" android:visibility="gone" android:layout_width="1dp" android:layout_height="1dp" android:layout_marginBottom="-10dp"/>
+</merge>

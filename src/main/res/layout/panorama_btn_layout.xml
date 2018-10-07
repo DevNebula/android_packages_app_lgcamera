@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@c0086id/panorama_btn_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/panorama_btn_margin_right" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+    <com.lge.camera.components.RotateImageButton android:layout_gravity="center" android:id="@c0086id/btn_pano_snd_record" android:background="@c0085drawable/btn_pano_snd_rec_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/panorama_sound_record"/>
+</LinearLayout>

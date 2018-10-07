@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lge.camera.components.RotateLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/square_mode_init_guide_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@c0086id/square_mode_init_guie_portrati_view" android:background="#e5000000" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="center_horizontal" android:id="@c0086id/square_help_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_help_title_topMargin_portrait" android:text="@string/square_camera" style="@style/type_d01_dp_white_bold"/>
+            <ScrollView android:scrollbarStyle="outsideInset" android:id="@c0086id/square_mode_init_guie_portrait_scroll" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/square_mode_init_guide_command_bottomMargin" android:layout_below="@c0086id/square_help_title" android:overScrollMode="ifContentScrolls">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/square_mode_init_guide_edge_margin" android:paddingEnd="@dimen/square_mode_init_guide_edge_margin">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_port_item1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <ImageView android:id="@c0086id/init_guide_item1_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_snap"/>
+                        <LinearLayout android:orientation="vertical" android:id="@c0086id/init_guide_item1_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snap_shot_help_title" style="@style/type_a01_dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_snapshot" style="@style/type_b01_dp_white"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_port_item2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <ImageView android:id="@c0086id/init_guide_item2_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_double"/>
+                        <LinearLayout android:orientation="vertical" android:id="@c0086id/init_guide_item2_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/match_shot_help_title" style="@style/type_a01_dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_dual_shot_ver2" style="@style/type_b01_dp_white"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_port_item3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <ImageView android:id="@c0086id/init_guide_item3_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_grid"/>
+                        <LinearLayout android:orientation="vertical" android:id="@c0086id/init_guide_item3_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_shot_help_title" style="@style/type_a01_dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_grid_shot" style="@style/type_b01_dp_white"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_port_item4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <ImageView android:id="@c0086id/init_guide_item4_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_guide"/>
+                        <LinearLayout android:orientation="vertical" android:id="@c0086id/init_guide_item4_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_shot_help_title" style="@style/type_a01_dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_guide_shot1" style="@style/type_b01_dp_white"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <RelativeLayout android:id="@c0086id/square_mode_ok_button_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="locale">
+                <Button android:textSize="@dimen/square_help_button_textSize" android:textColor="@color/color_checkbox" android:id="@c0086id/square_mode_ok_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" android:layout_alignParentEnd="true" style="?android:attr/buttonBarButtonStyle"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/square_init_guide_checkbox_bottom_margin" android:layout_above="@c0086id/square_mode_ok_button_wrapper" android:layoutDirection="locale">
+                <CheckBox android:id="@c0086id/square_mode_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@c0085drawable/selector_checkbox_button" android:text="@string/sp_eula_popup_do_not_show_this_again_NORMAL" android:layout_centerVertical="true" android:paddingStart="@dimen/init_guide_checkbox_inner_padding" android:layout_alignParentStart="true" style="@style/type_d02_dp_white"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@c0086id/square_mode_init_guie_landscape_view" android:background="#e5000000" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="center_horizontal" android:id="@c0086id/square_help_title_land" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_help_title_topMargin_landscape" android:text="@string/square_camera" style="@style/type_d01_dp_white_bold"/>
+            <ScrollView android:scrollbarStyle="outsideInset" android:id="@c0086id/square_mode_init_guie_landscape_scroll" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/square_mode_init_guide_command_bottomMargin" android:layout_below="@c0086id/square_help_title_land" android:overScrollMode="ifContentScrolls">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/square_mode_init_guide_edge_margin" android:paddingEnd="@dimen/square_mode_init_guide_edge_margin">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_land_item1" android:layout_width="336dp" android:layout_height="128dp" android:layoutDirection="locale">
+                                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_snap"/>
+                                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                                    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snap_shot_help_title" style="@style/type_a01_dp"/>
+                                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_snapshot" style="@style/type_b01_dp_white"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <View android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_land_item2" android:layout_width="336dp" android:layout_height="128dp" android:layoutDirection="locale">
+                                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_double"/>
+                                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                                    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/match_shot_help_title" style="@style/type_a01_dp"/>
+                                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_dual_shot_ver2" style="@style/type_b01_dp_white"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_edge_margin">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_land_item3" android:layout_width="336dp" android:layout_height="128dp" android:layoutDirection="locale">
+                                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_grid"/>
+                                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                                    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_shot_help_title" style="@style/type_a01_dp"/>
+                                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_grid_shot" style="@style/type_b01_dp_white"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <View android:background="#33ffffff" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/square_mode_init_land_item4" android:layout_width="336dp" android:layout_height="128dp" android:layoutDirection="locale">
+                                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_cell_help_image_guide"/>
+                                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/square_mode_init_guide_text_area_marginStart">
+                                    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_shot_help_title" style="@style/type_a01_dp"/>
+                                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/square_mode_init_guide_text_content_marginTop" android:text="@string/cell_square_init_guide_guide_shot" style="@style/type_b01_dp_white"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/square_init_guide_checkbox_bottom_margin" android:layout_above="@c0086id/square_mode_button_layout_land" android:layoutDirection="locale">
+                <CheckBox android:id="@c0086id/square_mode_check_box_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@c0085drawable/selector_checkbox_button" android:text="@string/sp_eula_popup_do_not_show_this_again_NORMAL" android:layout_centerVertical="true" android:paddingStart="@dimen/init_guide_checkbox_inner_padding" android:layout_alignParentStart="true" style="@style/type_d02_dp_white"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@c0086id/square_mode_button_layout_land" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="locale">
+                <Button android:textSize="@dimen/square_help_button_textSize" android:textColor="@color/color_checkbox" android:id="@c0086id/square_mode_ok_button_land" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" android:layout_alignParentEnd="true" style="?android:attr/buttonBarButtonStyle"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</com.lge.camera.components.RotateLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preference xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <default>
+        <item name="mode_rear_supported"> mode_normal,\10            mode_cinema,\10            mode_food,\10            mode_snap,\10            mode_popout_camera,\10            mode_dual_pop_camera,\10            mode_manual_camera,\10            mode_square_matching_shot,\10            mode_square_guide_shot,\10            mode_timelapse_video,\10            mode_panorama_lg_360_proj,\10            mode_manual_video,\10            mode_square_snap_shot,\10            mode_square_grid_shot,\10            mode_slow_motion,\10            mode_panorama_lg_raw,\10
+        </item>
+        <item name="mode_front_supported"> mode_normal,\10            mode_square_matching_shot,\10            mode_square_guide_shot,\10            mode_snap,\10            mode_square_snap_shot,\10            mode_square_grid_shot,\10
+        </item>
+        <item name="mode_download_supported"> mode_snap,\10            mode_square_matching_shot,\10            mode_square_guide_shot,\10            mode_timelapse_video,\10            mode_panorama_lg_360_proj,\10            mode_square_snap_shot,\10            mode_square_grid_shot,\10
+        </item>
+        <item name="camera_pictureSize_rear_supported"> 4656x3492,\10            3264x2448,\10            4656x2620,\10            3264x1836,\10            4656x2328,\10            2560x1280,\10            3492x3492,\10            1836x1836\10
+        </item>
+        <item name="camera_previewSize_rear_supported"> 1280x960,\10            1280x960,\10            1920x1080,\10            1920x1080,\10            2560x1280,\10            2560x1280,\10            1080x1080,\10            1080x1080\10
+        </item>
+        <item name="camera_previewSizeOnScreen_rear_supported"> 480x360dp,\10            480x360dp,\10            640x360dp,\10            640x360dp,\10            720x360dp,\10            720x360dp,\10            360x360dp,\10            360x360dp\10
+        </item>
+        <item name="camera_pictureSize_rear_default"> 4656x3492\10
+        </item>
+        <item name="camera_pictureSize_sub_rear_supported"> 4160x3120,\10            2880x2160,\10            4160x2340,\10            2560x1440,\10            4160x2080,\10            2560x1280,\10            3120x3120,\10            1440x1440\10
+        </item>
+        <item name="camera_previewSize_sub_rear_supported"> 1280x960,\10            1280x960,\10            1920x1080,\10            1920x1080,\10            2560x1280,\10            2560x1280,\10            1080x1080,\10            1080x1080\10
+        </item>
+        <item name="camera_previewSizeOnScreen_sub_rear_supported"> 480x360dp,\10            480x360dp,\10            640x360dp,\10            640x360dp,\10            720x360dp,\10            720x360dp,\10            360x360dp,\10            360x360dp\10
+        </item>
+        <item name="camera_pictureSize_sub_rear_default"> 4160x3120\10
+        </item>
+        <item name="camera_pictureSize_front_supported"> 2560x1920,\10            2560x1440,\10            2560x1280,\10            1920x1920\10
+        </item>
+        <item name="camera_previewSize_front_supported"> 960x720,\10            1280x720,\10            2560x1280,\10            720x720\10
+        </item>
+        <item name="camera_previewSizeOnScreen_front_supported"> 480x360dp,\10            640x360dp,\10            720x360dp,\10            360x360dp\10
+        </item>
+        <item name="camera_pictureSize_front_default"> 2560x1920\10
+        </item>
+        <item name="video_size_rear_supported"> 3840x2160,\10            2160x1080,\10            1920x1080@60,\10            1920x1080,\10            1440x720,\10            1280x720,\10            640x480,\10            320x240,\10            176x144\10
+        </item>
+        <item name="video_previewSizeOnScreen_rear_supported"> 640x360dp,\10            720x360dp,\10            640x360dp,\10            640x360dp,\10            720x360dp,\10            640x360dp,\10            480x360dp,\10            480x360dp,\10            440x360dp\10
+        </item>
+        <item name="video_size_rear_default"> 1920x1080\10
+        </item>
+        <item name="video_size_sub_rear_supported"> 3840x2160,\10            2160x1080,\10            1920x1080@60,\10            1920x1080,\10            1440x720,\10            1280x720,\10            640x480,\10            320x240,\10            176x144\10
+        </item>
+        <item name="video_previewSizeOnScreen_sub_rear_supported"> 640x360dp,\10            720x360dp,\10            640x360dp,\10            640x360dp,\10            720x360dp,\10            640x360dp,\10            480x360dp,\10            480x360dp,\10            440x360dp\10
+        </item>
+        <item name="video_size_sub_rear_default"> 1920x1080\10
+        </item>
+        <item name="video_size_front_supported"> 1920x1080,\10            1440x720,\10            1280x720,\10            640x480,\10            320x240,\10            176x144\10
+        </item>
+        <item name="video_previewSizeOnScreen_front_supported"> 640x360dp,\10            720x360dp,\10            640x360dp,\10            480x360dp,\10            480x360dp,\10            440x360dp\10
+        </item>
+        <item name="video_size_front_default"> 1920x1080\10
+        </item>
+        <item name="zsl_supported"> 1\10
+        </item>
+        <item name="hdmi_mhl_supported"> true\10
+        </item>
+        <item name="morpho_night_shot_supported"> true\10
+        </item>
+        <item name="use_renesas_ISP"> false\10
+        </item>
+        <item name="MTK_chipset"> false\10
+        </item>
+        <item name="light_frame_supported"> true\10
+        </item>
+        <item name="long_shot_supported"> true\10
+        </item>
+        <item name="panorama_preview_size"> 720x360dp, 4160x2080\10
+        </item>
+        <item name="panorama_360_dist_cor_value"> 4.657434e-002,\10            -1.575409e-002,\10            5.367806e-003,\10            3.711896e-003,\10            1\10
+        </item>
+        <item name="beautyshot_supported"> 2\10
+        </item>
+        <item name="relighting_supported"> true\10
+        </item>
+        <item name="hdr_supported"> 3\10
+        </item>
+        <item name="super_zoom_supported"> true\10
+        </item>
+        <item name="AE_focus_supported"> true\10
+        </item>
+        <item name="motionquickviewer_supported"> true\10
+        </item>
+        <item name="hal_supported"> 2\10
+        </item>
+        <item name="raw_picture_saving_supported"> true\10
+        </item>
+        <item name="beautyshot_tone_adjust"> 75\10
+        </item>
+        <item name="voice_shutter_supported"> true\10
+        </item>
+        <item name="video_hdr_supported"> true\10
+        </item>
+        <item name="rear_curtain_sync_supported"> true\10
+        </item>
+        <item name="camera_type_front"> 2\10
+        </item>
+        <item name="camera_type_rear"> 1\10
+        </item>
+        <item name="steady_camera_supported"> 2\10
+        </item>
+        <item name="film_emulator_supported"> true\10
+        </item>
+        <item name="crop_zoom_level"> 80\10
+        </item>
+        <item name="second_camera_max_zoom_level"> 248\10
+        </item>
+        <item name="fast_shot_supported"> 1\10
+        </item>
+        <item name="zsl_manual_supported"> true\10
+        </item>
+        <item name="burst_shot_per_second_front"> 104800480\10
+        </item>
+        <item name="burst_shot_per_second"> 100670067\10
+        </item>
+        <item name="burst_shot_max_count"> 101000030\10
+        </item>
+        <item name="gapless_loop_recording_supported"> false\10
+        </item>
+        <item name="wide_camera_default"> false\10
+        </item>
+        <item name="optic_zoom_supported"> 0\10
+        </item>
+        <item name="shot_solution_supported"> true\10
+        </item>
+        <item name="sticker_supported"> true\10
+        </item>
+        <item name="relighting_supported"> false\10
+        </item>
+        <item name="smart_cam_supported"> true\10
+        </item>
+    </default>
+    <M-731884953.M246467038.M81952057>
+        <item name="camera_pictureSize_rear_default"> 4656x2620\10
+        </item>
+        <item name="camera_pictureSize_sub_rear_default"> 4160x2340\10
+        </item>
+        <item name="camera_pictureSize_front_default"> 2560x1440\10
+        </item>
+    </M-731884953.M246467038.M81952057>
+</Preference>

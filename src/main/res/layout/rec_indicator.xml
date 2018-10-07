@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@c0086id/rec_time_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/recording_indicator_marginEnd" android:layout_alignParentEnd="true">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/text_rec_time_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <RelativeLayout android:id="@c0086id/text_rec_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <RelativeLayout android:id="@c0086id/text_rec_time_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                    <ImageView android:id="@c0086id/rec_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/ic_camera_rec" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/recording_indicator_status_icon_marginEnd"/>
+                    <com.lge.camera.components.RotateTextView android:gravity="center_vertical" android:id="@c0086id/text_rec_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_rec_time" android:layout_toEndOf="@c0086id/rec_status_icon" style="@style/time_progress"/>
+                    <ImageView android:id="@c0086id/rec_timelapse_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/camera_timelapse_arrow" android:layout_centerVertical="true" android:layout_marginStart="@dimen/rec_timelapse_arrow_marginStart" android:layout_marginEnd="@dimen/rec_timelapse_arrow_marginEnd" android:layout_toEndOf="@c0086id/text_rec_time"/>
+                    <com.lge.camera.components.RotateTextView android:id="@c0086id/text_timelapse_rec_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_rec_time" android:layout_centerVertical="true" android:layout_toEndOf="@c0086id/rec_timelapse_arrow" style="@style/timelapse_progress"/>
+                </RelativeLayout>
+                <RelativeLayout android:gravity="end" android:id="@c0086id/text_rec_mode_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@c0086id/text_rec_time_view" android:layoutDirection="ltr" android:layout_alignEnd="@c0086id/text_rec_time_view">
+                    <Space android:id="@c0086id/dummy_icon_space" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/recording_indicator_status_icon_marginEnd"/>
+                    <TextView android:textAppearance="@style/slow_motion" android:gravity="center_vertical" android:id="@c0086id/text_rec_mode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/slo_mo" android:textDirection="ltr" android:layout_marginStart="@dimen/text_rec_mode_margin" android:layout_marginEnd="@dimen/text_rec_mode_margin" android:layout_toEndOf="@c0086id/dummy_icon_space"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/progress_rec_time_rotate" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+            <com.lge.camera.components.RecProgressBar android:id="@c0086id/progress_rec_time" android:layout_width="@dimen/progress_rec_ver_width" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layoutDirection="ltr"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/arc_progress_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/arc_progress_margin_top" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/arc_progress_margin_end" android:layout_alignParentEnd="true">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <com.lge.camera.components.ArcProgress android:id="@c0086id/arc_process" android:visibility="invisible" android:layout_width="@dimen/arc_progress_height" android:layout_height="@dimen/arc_progress_height" app:arc_progress="0" app:arc_cycle_period="15" app:arc_update_frequency="6"/>
+                <com.lge.camera.components.RotateTextView android:gravity="center" android:id="@c0086id/arc_progress_text" android:visibility="invisible" android:layout_width="@dimen/arc_progress_height" android:layout_height="@dimen/arc_progress_height" android:layout_centerInParent="true" android:textAlignment="center" app:textSize="19dp" style="@style/time_progress"/>
+            </RelativeLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

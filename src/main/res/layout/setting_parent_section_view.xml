@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:background="@color/setting_section" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.lge.camera.components.RotateTextView android:id="@c0086id/settings_list_section_title" android:layout_width="wrap_content" android:layout_height="@dimen/setting_list_section_height" style="@style/setting_list_section_title"/>
+    </LinearLayout>
+</RelativeLayout>

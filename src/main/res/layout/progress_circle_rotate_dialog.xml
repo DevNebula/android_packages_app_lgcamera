@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@c0086id/backcover" android:background="@color/backcover_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <RelativeLayout android:id="@c0086id/rotate_dialog_margin_layout" android:padding="@dimen/rotate_dialog_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/rotate_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <RelativeLayout android:background="@c0085drawable/dialog_round_corner" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/progress_dialog_paddingStart" android:paddingEnd="@dimen/progress_dialog_paddingStart">
+                    <ProgressBar android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_dialog_icon_marginTop" android:layout_marginBottom="@dimen/progress_dialog_icon_marginTop" android:max="10000" android:layout_marginEnd="@dimen/progress_dialog_icon_marginEnd" style="?android:attr/progressBarStyle"/>
+                    <TextView android:textAppearance="@style/type_d03_sp" android:layout_gravity="center_vertical" android:id="@c0086id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_dialog_text_marginTop" android:layout_marginBottom="@dimen/progress_dialog_text_marginTop" android:text="@string/waiting_save_image"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

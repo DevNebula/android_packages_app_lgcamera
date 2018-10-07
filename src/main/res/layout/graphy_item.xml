@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/graphy_item_size" android:layout_height="@dimen/graphy_item_size">
+    <RelativeLayout android:id="@c0086id/graphy_category_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <RelativeLayout android:id="@c0086id/graphy_thumbnail_add_text_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.lge.camera.components.RotateImageView android:id="@c0086id/graphy_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+        <com.lge.camera.components.RotateTextView android:id="@c0086id/graphy_category_prefix_text" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:textAllCapsLocal="false" app:singleLine="false" app:lineSpacingExtra="-4dp" style="@style/selfie_filter_text"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/graphy_category" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textAppearance="@style/type_k01_dp_bold" android:id="@c0086id/graphy_category_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textAlignment="center"/>
+        <ImageView android:id="@c0086id/graphy_category_arrow" android:paddingTop="@dimen/graphy_item_padding_long" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@c0086id/graphy_category_txt" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@c0086id/graphy_category_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/ic_graphy_filter_more" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

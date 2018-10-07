@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="horizontal" android:id="@c0086id/advanced_selfie_scroll" android:background="@color/setting_mode_bg" android:paddingBottom="@dimen/advanced_selfie_scroll_marginTopBottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.lge.camera.components.RotateImageButton android:id="@c0086id/imageView1" android:background="@color/setting_mode_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/selfie_filter_text"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/camera_base" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.lge.camera.components.StartingCoverViewGL android:id="@c0086id/starting_cover_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/preview"/>
+    <com.lge.camera.components.RotateImageView android:id="@c0086id/lightFrame_preview_indicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@c0085drawable/camera_beauty_flash_on" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <ViewStub android:id="@c0086id/stub_preview_overlay" android:layout="@layout/preview_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@c0086id/stub_app_view" android:layout="@layout/app_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@c0086id/stub_color_effect_view" android:layout="@layout/color_effect_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@c0086id/stub_mode_view" android:layout="@layout/mode_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@c0086id/stub_usp_view" android:layout="@layout/usp_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <ViewStub android:id="@c0086id/stub_setting_view" android:layout="@layout/setting_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@c0086id/stub_controler_view" android:layout="@layout/camera_controls" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@c0086id/stub_dot_page_indicator" android:layout="@layout/dot_page_indicator_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@c0086id/stub_back_button" android:layout="@layout/back_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@c0086id/stub_post_view" android:layout="@layout/post_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@c0086id/auto_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_auto_layout_dummy"/>
+    <include android:id="@c0086id/auto_shutter_zoom_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_auto_layout_shutter_zoom_dummy"/>
+    <include android:id="@c0086id/clean_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_clean_layout_dummy"/>
+    <include android:id="@c0086id/manual_camera_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_manual_camera_dummy"/>
+    <include android:id="@c0086id/manual_video_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_manual_video_dummy"/>
+    <include android:id="@c0086id/manual_video_cinema_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_manual_video_cinema_dummy"/>
+    <include android:id="@c0086id/attach_camera_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_attach_camera_dummy"/>
+    <include android:id="@c0086id/attach_video_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/starting_attach_video_dummy"/>
+    <ViewStub android:id="@c0086id/stub_full_screen_light_frame" android:layout="@layout/full_screen_light_frame" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

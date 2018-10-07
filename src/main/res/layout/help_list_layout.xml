@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@c0086id/help_top_margin_view" android:background="@color/help_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/help_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+        <LinearLayout android:orientation="vertical" android:background="@color/help_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/help_title_height" android:text="@string/help" style="@style/help_title"/>
+            <ListView android:scrollbarThumbVertical="@c0085drawable/scrollbar_handle_holo_light" android:scrollbarStyle="insideOverlay" android:id="@c0086id/help_list_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@c0085drawable/setting_list_divider" android:dividerHeight="1dp" android:scrollbarDefaultDelayBeforeFade="1000" android:layoutDirection="locale"/>
+        </LinearLayout>
+    </com.lge.camera.components.RotateLayout>
+    <View android:id="@c0086id/help_layout_bottom" android:background="@color/help_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

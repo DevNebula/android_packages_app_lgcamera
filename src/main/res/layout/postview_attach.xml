@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/postview_attach" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <ImageView android:id="@c0086id/captured_image" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <ImageButton android:id="@c0086id/btn_play" android:background="#00000000" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c0085drawable/selector_gallery_play" android:layout_centerInParent="true" android:contentDescription="@string/play"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@c0086id/command_button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="locale">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/activity_help_command_layout_paddingTop" android:paddingBottom="@dimen/rotate_dialog_button_inner_layout_new_paddingBottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/activity_help_command_layout_minHeight" android:layoutDirection="locale" android:paddingEnd="@dimen/rotate_dialog_button_inner_layout_new_paddingEnd" style="?android:attr/buttonBarStyle">
+            <Space android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <LinearLayout android:id="@c0086id/button_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:textAppearance="@style/general_command_button" android:id="@c0086id/btn_cancel" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="?android:attr/buttonBarButtonStyle"/>
+                <Button android:textAppearance="@style/general_command_button" android:id="@c0086id/done_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" style="?android:attr/buttonBarButtonStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

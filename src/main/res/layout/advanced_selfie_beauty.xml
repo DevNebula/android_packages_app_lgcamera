@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="bottom" android:orientation="horizontal" android:id="@c0086id/advanced_beauty_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:layoutDirection="ltr">
+    <LinearLayout android:id="@c0086id/advanced_selfie_menu_layout" android:layout_width="@dimen/advanced_selfie_menu_width" android:layout_height="wrap_content" android:layout_marginStart="7dp">
+        <RelativeLayout android:id="@c0086id/beauty_skin_tone_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/beauty_skin_tone_button" android:background="@c0085drawable/btn_advanced_selfie_skin_tone_button" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/Advanced_beauty_skin_tone" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@c0086id/beauty_relighting_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/beauty_relighting_button" android:background="@c0085drawable/btn_advanced_selfie_lighting_button" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/Advanced_beauty_relighting" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@c0086id/beauty_filter_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/beauty_filter_button" android:background="@c0085drawable/btn_advanced_selfie_filter_button" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/Advanced_beauty_filter" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/beauty_color_effect_button" android:background="@c0085drawable/btn_advanced_selfie_filter_button" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/Advanced_beauty_filter" android:layoutDirection="ltr" style="@style/selfie_button_text"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

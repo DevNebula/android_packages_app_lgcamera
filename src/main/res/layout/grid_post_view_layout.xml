@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@c0086id/grid_postview_layout" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0dp">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/grid_preview_area_dummy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="360dp" android:layout_alignParentTop="true">
+        <RelativeLayout android:background="#bf000000" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="center_horizontal" android:id="@c0086id/retake_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="@string/cell_square_grid_post_retake_guide" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="25dp" android:layout_marginEnd="25dp" style="@style/type_b01_dp_white"/>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+    <RelativeLayout android:id="@c0086id/grid_postview_contents_layout" android:background="#bb000000" android:visibility="visible" android:layout_width="match_parent" android:layout_height="360dp" android:layout_alignParentBottom="true" android:layoutDirection="locale">
+        <RelativeLayout android:id="@c0086id/grid_contents_first" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+            <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_image_first_wrap" android:background="#1a1a1a" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@c0086id/grid_image_first" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.lge.camera.components.ReverseRelativeLayout>
+            <com.lge.camera.components.RotateTextView android:textAppearance="@style/type_f02_sp_bold_grid" android:id="@c0086id/grid_text_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@c0086id/grid_contents_second" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+            <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_image_second_wrap" android:background="#222222" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@c0086id/grid_image_second" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.lge.camera.components.ReverseRelativeLayout>
+            <com.lge.camera.components.RotateTextView android:textAppearance="@style/type_f02_sp_bold_grid" android:id="@c0086id/grid_text_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@c0086id/grid_contents_third" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+            <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_image_third_wrap" android:background="#222222" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@c0086id/grid_image_third" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.lge.camera.components.ReverseRelativeLayout>
+            <com.lge.camera.components.RotateTextView android:textAppearance="@style/type_c01_dp" android:id="@c0086id/grid_text_third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@c0086id/grid_contents_fourth" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+            <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_image_fourth_wrap" android:background="#1a1a1a" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@c0086id/grid_image_fourth" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.lge.camera.components.ReverseRelativeLayout>
+            <com.lge.camera.components.RotateTextView android:textAppearance="@style/type_c01_dp" android:id="@c0086id/grid_text_fourth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_video_first_wrap" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+        <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_video_second_wrap" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+        <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_video_third_wrap" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+        <com.lge.camera.components.ReverseRelativeLayout android:id="@c0086id/grid_video_fourth_wrap" android:layout_width="180dp" android:layout_height="180dp" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+        <ImageView android:id="@c0086id/grid_highright_first" android:visibility="gone" android:layout_width="180dp" android:layout_height="180dp" android:src="@c0085drawable/camera_cell_grid_selected" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@c0086id/grid_highright_second" android:visibility="gone" android:layout_width="180dp" android:layout_height="180dp" android:src="@c0085drawable/camera_cell_grid_selected" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+        <ImageView android:id="@c0086id/grid_highright_third" android:visibility="gone" android:layout_width="180dp" android:layout_height="180dp" android:src="@c0085drawable/camera_cell_grid_selected" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@c0086id/grid_highright_fourth" android:visibility="gone" android:layout_width="180dp" android:layout_height="180dp" android:src="@c0085drawable/camera_cell_grid_selected" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/grid_post_view_button_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/grid_button_cancel" android:background="@c0085drawable/btn_quickbutton_cancel" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/cancel" android:layout_marginStart="@dimen/square_mode_grid_control_margin_side" android:layout_alignParentStart="true"/>
+            <com.lge.camera.components.RotateImageButton android:id="@c0086id/grid_button_ok" android:background="@c0085drawable/btn_quickbutton_save" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/sp_save_SHORT" android:layout_marginEnd="@dimen/square_mode_grid_control_margin_side" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/grid_post_view_cover" android:background="#000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

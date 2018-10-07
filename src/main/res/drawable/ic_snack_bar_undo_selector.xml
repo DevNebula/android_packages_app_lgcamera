@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="false">
+        <bitmap android:src="@c0085drawable/ic_snack_bar_undo" android:alpha="@dimen/disabled_alpha_value"/>
+    </item>
+    <item android:drawable="@c0085drawable/ic_snack_bar_undo"/>
+</selector>

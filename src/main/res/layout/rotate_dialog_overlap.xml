@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <RelativeLayout android:id="@c0086id/backcover" android:background="@color/backcover_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <RelativeLayout android:id="@c0086id/rotate_dialog_margin_layout" android:padding="@dimen/rotate_dialog_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layoutDirection="locale">
+        <com.lge.camera.components.RotateLayout android:id="@c0086id/rotate_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="vertical" android:id="@c0086id/rotate_dialog_inner_layout" android:background="@c0085drawable/dialog_round_corner" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/rotate_dialog_title_layout_minHeight" android:layoutDirection="locale" android:paddingStart="@dimen/rotate_help_dialog_content_layout_padding" android:paddingEnd="@dimen/rotate_help_dialog_content_layout_padding">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@c0086id/title_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/rotate_dialog_title_icon_marginEnd" style="@style/Dialog_Title_Icon"/>
+                        <TextView android:textAppearance="@style/type_d03_sp_bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@c0086id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dummy_space" android:singleLine="false"/>
+                    </LinearLayout>
+                    <ScrollView android:scrollbarStyle="outsideInset" android:id="@c0086id/message_scroll" android:paddingTop="@dimen/rotate_dialog_message_scroll_paddingTop" android:paddingBottom="@dimen/rotate_dialog_message_scroll_paddingBottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@c0086id/check_box_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"/>
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@c0086id/button_inner_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rotate_dialog_command_bottomMargin" android:layoutDirection="locale" android:paddingEnd="@dimen/rotate_dialog_button_inner_layout_new_paddingEnd">
+                        <Space android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                        <Button android:textAppearance="@style/type_d03_sp_bold" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@c0086id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="2" style="?android:attr/buttonBarButtonStyle"/>
+                        <Button android:textAppearance="@style/type_d03_sp_bold" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@c0086id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_ok_NORMAL" android:maxLines="2" style="?android:attr/buttonBarButtonStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

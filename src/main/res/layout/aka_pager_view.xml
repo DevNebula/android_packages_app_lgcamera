@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@c0086id/aka_camera_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+    <android.support.v4.view.ViewPager android:id="@c0086id/aka_pager_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@c0086id/aka_arrow_button_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <ImageView android:id="@c0086id/arrow_image_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@c0086id/aka_exit_view" android:focusable="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@c0086id/aka_back_button" android:background="@c0085drawable/selector_quickwindow_back_btn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/camera_accessibility_back_button" android:layout_marginStart="36dp"/>
+        <ImageButton android:id="@c0086id/aka_shutter_button" android:background="@c0085drawable/selector_quickwindow_return_btn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/accessibility_shutter_button" android:layout_marginEnd="36dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</RelativeLayout>

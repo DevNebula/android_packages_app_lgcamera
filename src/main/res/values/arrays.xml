@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="advanced_selfie_filter_entries">
+        <item>@string/film_emulator_film_none</item>
+        <item>@string/rear_filter_urban</item>
+        <item>@string/rear_filter_vivid</item>
+        <item>@string/rear_filter_violet</item>
+        <item>@string/rear_filter_vintage</item>
+        <item>@string/rear_filter_jade</item>
+        <item>@string/rear_filter_nostalgia</item>
+        <item>@string/rear_filter_bw</item>
+        <item>@string/rear_filter_1839</item>
+        <item>@string/advanced_selfie_filter_bright</item>
+        <item>@string/advanced_selfie_filter_classic</item>
+        <item>@string/advanced_selfie_filter_mellow</item>
+        <item>@string/advanced_selfie_filter_cool</item>
+        <item>@string/advanced_selfie_filter_calm</item>
+        <item>@string/advanced_selfie_filter_deep</item>
+        <item>@string/advanced_selfie_filter_romantic</item>
+        <item>@string/advanced_selfie_filter_pure</item>
+        <item>@string/advanced_selfie_filter_chic</item>
+        <item>food</item>
+    </array>
+    <array name="advanced_selfie_filter_entries_japan">
+        <item>@string/film_emulator_film_none</item>
+        <item>@string/rear_filter_urban</item>
+        <item>@string/rear_filter_vivid</item>
+        <item>@string/rear_filter_violet</item>
+        <item>@string/rear_filter_vintage</item>
+        <item>@string/rear_filter_jade</item>
+        <item>@string/rear_filter_nostalgia</item>
+        <item>@string/rear_filter_bw</item>
+        <item>@string/cine_filter_tag_noir</item>
+        <item>@string/advanced_selfie_filter_bright</item>
+        <item>@string/advanced_selfie_filter_classic</item>
+        <item>@string/advanced_selfie_filter_mellow</item>
+        <item>@string/advanced_selfie_filter_cool</item>
+        <item>@string/advanced_selfie_filter_calm</item>
+        <item>@string/advanced_selfie_filter_deep</item>
+        <item>@string/advanced_selfie_filter_romantic</item>
+        <item>@string/advanced_selfie_filter_pure</item>
+        <item>@string/advanced_selfie_filter_chic</item>
+        <item>food</item>
+    </array>
+    <array name="advanced_selfie_filter_entriyValues">
+        <item>0_film.dat</item>
+        <item>1_film.dat</item>
+        <item>2_film.dat</item>
+        <item>3_film.dat</item>
+        <item>4_film.dat</item>
+        <item>5_film.dat</item>
+        <item>6_film.dat</item>
+        <item>7_film.dat</item>
+        <item>8_film.dat</item>
+        <item>1_selfie.dat</item>
+        <item>2_selfie.dat</item>
+        <item>3_selfie.dat</item>
+        <item>4_selfie.dat</item>
+        <item>5_selfie.dat</item>
+        <item>6_selfie.dat</item>
+        <item>7_selfie.dat</item>
+        <item>8_selfie.dat</item>
+        <item>9_selfie.dat</item>
+        <item>1_food.dat</item>
+    </array>
+    <array name="advanced_selfie_filter_icons">
+        <item>@drawable/selector_selfie_filter_button_0</item>
+        <item>@drawable/selector_selfie_film_button_1</item>
+        <item>@drawable/selector_selfie_film_button_2</item>
+        <item>@drawable/selector_selfie_film_button_3</item>
+        <item>@drawable/selector_selfie_film_button_4</item>
+        <item>@drawable/selector_selfie_film_button_5</item>
+        <item>@drawable/selector_selfie_film_button_6</item>
+        <item>@drawable/selector_selfie_film_button_7</item>
+        <item>@drawable/selector_selfie_film_button_8</item>
+        <item>@drawable/selector_selfie_filter_button_1</item>
+        <item>@drawable/selector_selfie_filter_button_2</item>
+        <item>@drawable/selector_selfie_filter_button_3</item>
+        <item>@drawable/selector_selfie_filter_button_4</item>
+        <item>@drawable/selector_selfie_filter_button_5</item>
+        <item>@drawable/selector_selfie_filter_button_6</item>
+        <item>@drawable/selector_selfie_filter_button_7</item>
+        <item>@drawable/selector_selfie_filter_button_8</item>
+        <item>@drawable/selector_selfie_filter_button_9</item>
+        <item>@drawable/selector_selfie_filter_button_0</item>
+    </array>
+    <array name="cheeseshutter_description">
+        <item>@string/cheeseshutter_off</item>
+        <item>@string/cheeseshutter_on</item>
+    </array>
+    <array name="cheeseshutter_entries">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </array>
+    <array name="cheeseshutter_entryValues">
+        <item>off</item>
+        <item>on</item>
+    </array>
+    <array name="color_effect_entry_values">
+        <item>negative</item>
+        <item>posterize</item>
+        <item>aqua</item>
+        <item>mono</item>
+        <item>none</item>
+        <item>sepia</item>
+    </array>
+    <array name="color_effect_entry_values_front">
+        <item>none</item>
+        <item>sepia</item>
+        <item>mono</item>
+        <item>aqua</item>
+        <item>posterize</item>
+        <item>negative</item>
+    </array>
+    <array name="film_emulator_entries">
+        <item>@string/film_emulator_film_none</item>
+        <item>@string/rear_filter_urban</item>
+        <item>@string/rear_filter_vivid</item>
+        <item>@string/rear_filter_violet</item>
+        <item>@string/rear_filter_vintage</item>
+        <item>@string/rear_filter_jade</item>
+        <item>@string/rear_filter_nostalgia</item>
+        <item>@string/rear_filter_bw</item>
+        <item>@string/rear_filter_1839</item>
+        <item>@string/film_emulator_film_none</item>
+    </array>
+    <array name="film_emulator_entries_japan">
+        <item>@string/rear_filter_urban</item>
+        <item>@string/rear_filter_vivid</item>
+        <item>@string/rear_filter_violet</item>
+        <item>@string/rear_filter_vintage</item>
+        <item>@string/film_emulator_film_none</item>
+        <item>@string/rear_filter_jade</item>
+        <item>@string/rear_filter_nostalgia</item>
+        <item>@string/rear_filter_bw</item>
+        <item>@string/cine_filter_tag_noir</item>
+        <item>@string/film_emulator_film_none</item>
+    </array>
+    <array name="film_emulator_entriyValues">
+        <item>0_film.dat</item>
+        <item>1_film.dat</item>
+        <item>2_film.dat</item>
+        <item>3_film.dat</item>
+        <item>4_film.dat</item>
+        <item>5_film.dat</item>
+        <item>6_film.dat</item>
+        <item>7_film.dat</item>
+        <item>8_film.dat</item>
+        <item>1_food.dat</item>
+    </array>
+    <array name="film_emulator_icons">
+        <item>@drawable/btn_quickbutton_filter_off</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_on</item>
+        <item>@drawable/btn_quickbutton_filter_off</item>
+    </array>
+    <array name="focus_entries">
+        <item>@string/auto</item>
+        <item>@string/auto</item>
+        <item>@string/manual_for_camera</item>
+        <item>@string/focus_face_tracking</item>
+        <item>None</item>
+    </array>
+    <array name="focus_entryValues">
+        <item>mw_continuous-picture</item>
+        <item>auto</item>
+        <item>manual-focus</item>
+        <item>face_tracking</item>
+        <item>none</item>
+    </array>
+    <array name="fullvision_entries">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </array>
+    <array name="fullvision_entryValues">
+        <item>off</item>
+        <item>on</item>
+    </array>
+    <array name="ldb_filter_name">
+        <item>none</item>
+        <item>urban</item>
+        <item>vivid</item>
+        <item>violet</item>
+        <item>vintage</item>
+        <item>jade</item>
+        <item>nostalgia</item>
+        <item>bw</item>
+        <item>1839</item>
+        <item>bright</item>
+        <item>classic</item>
+        <item>mellow</item>
+        <item>cool</item>
+        <item>calm</item>
+        <item>deep</item>
+        <item>romantic</item>
+        <item>pure</item>
+        <item>chic</item>
+        <item>food</item>
+    </array>
+    <array name="live_photo_entries">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </array>
+    <array name="live_photo_entryValues">
+        <item>off</item>
+        <item>on</item>
+    </array>
+    <array name="manual_video_bitrate_entryValues">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </array>
+    <array name="manual_video_bitrate_entrys">
+        <item>@string/video_bitrate_high1</item>
+        <item>@string/video_bitrate_medium1</item>
+        <item>@string/video_bitrate_low1</item>
+    </array>
+    <array name="mode_new_description">
+        <item>@string/mode_menu_camera_normal</item>
+        <item>@string/mode_menu_time_lapse_desc</item>
+        <item>@string/help_guide_desc_snap</item>
+        <item>@string/sp_dual_camera_help_desc</item>
+        <item>@string/slow_motion</item>
+        <item>@string/mode_popout_camera</item>
+        <item>@string/mode_food</item>
+        <item>@string/mode_square_snap_shot</item>
+        <item>@string/mode_square_grid_shot</item>
+        <item>@string/mode_square_matching_shot</item>
+        <item>@string/mode_square_guide_shot</item>
+        <item>@string/sp_help_guide_panorama_shot_desc_NORMAL</item>
+        <item>@string/sp_help_guide_panorama_shot_desc_NORMAL</item>
+        <item>@string/sp_help_guide_panorama_shot_desc_NORMAL</item>
+        <item>@string/shot_mode_cine_video</item>
+        <item>@string/mode_youtube_live</item>
+        <item>@string/camera_help_manual_camera_title</item>
+        <item>@string/camera_help_manual_video_title</item>
+        <item>@string/mode_dual_pop_camera</item>
+        <item>@string/mode_flash_jump_cut</item>
+        <item>@string/ar_stickers</item>
+    </array>
+    <array name="mode_new_entries">
+        <item>@string/sp_whitebalance_default_NORMAL</item>
+        <item>@string/time_lapse_video</item>
+        <item>@string/shot_mode_snap_movie</item>
+        <item>@string/mode_multiview</item>
+        <item>@string/slo_mo</item>
+        <item>@string/mode_popout_camera</item>
+        <item>@string/mode_food</item>
+        <item>@string/mode_square_snap_shot</item>
+        <item>@string/mode_square_grid_shot</item>
+        <item>@string/mode_square_matching_shot</item>
+        <item>@string/mode_square_guide_shot</item>
+        <item>@string/shot_mode_panorama</item>
+        <item>@string/shot_mode_panorama</item>
+        <item>@string/shot_mode_panorama_360</item>
+        <item>@string/shot_mode_cine_video</item>
+        <item>@string/mode_youtube_live</item>
+        <item>@string/manual_quick_view_mode_button</item>
+        <item>@string/manual_quick_view_mode_button</item>
+        <item>@string/mode_dual_pop_camera</item>
+        <item>@string/mode_flash_jump_cut</item>
+        <item>@string/ar_stickers</item>
+    </array>
+    <array name="mode_new_entryValues">
+        <item>mode_normal</item>
+        <item>mode_timelapse_video</item>
+        <item>mode_snap</item>
+        <item>mode_multiview</item>
+        <item>mode_slow_motion</item>
+        <item>mode_popout_camera</item>
+        <item>mode_food</item>
+        <item>mode_square_snap_shot</item>
+        <item>mode_square_grid_shot</item>
+        <item>mode_square_matching_shot</item>
+        <item>mode_square_guide_shot</item>
+        <item>mode_panorama_lg</item>
+        <item>mode_panorama_lg_raw</item>
+        <item>mode_panorama_lg_360_proj</item>
+        <item>mode_cinema</item>
+        <item>mode_youtube_live</item>
+        <item>mode_manual_camera</item>
+        <item>mode_manual_video</item>
+        <item>mode_dual_pop_camera</item>
+        <item>mode_flash_jumpcut</item>
+        <item>mode_ar_stickers</item>
+    </array>
+    <array name="mode_new_images">
+        <item>@drawable/levellist_mode_integrate_normal</item>
+        <item>@drawable/levellist_mode_integrate_time_lapse</item>
+        <item>@drawable/levellist_mode_integrate_snap</item>
+        <item>@drawable/levellist_mode_integrate_multiview</item>
+        <item>@drawable/levellist_mode_integrate_slowmotion</item>
+        <item>@drawable/levellist_mode_integrate_popout</item>
+        <item>@drawable/levellist_mode_integrate_food</item>
+        <item>@drawable/levellist_mode_square_snap</item>
+        <item>@drawable/levellist_mode_square_grid</item>
+        <item>@drawable/levellist_mode_square_match</item>
+        <item>@drawable/levellist_mode_square_guide</item>
+        <item>@drawable/levellist_mode_integrate_panorama</item>
+        <item>@drawable/levellist_mode_integrate_panorama</item>
+        <item>@drawable/levellist_mode_integrate_panorama_proj</item>
+        <item>@drawable/levellist_mode_integrate_cinema</item>
+        <item>@drawable/levellist_mode_integrate_youtube_live</item>
+        <item>@drawable/levellist_mode_integrate_manual_camera</item>
+        <item>@drawable/levellist_mode_integrate_manual_video</item>
+        <item>@drawable/levellist_mode_integrate_dualpop</item>
+        <item>@drawable/levellist_mode_integrate_jumpcut</item>
+        <item>@drawable/levellist_mode_ar_stickers</item>
+    </array>
+    <array name="multiview_layout_description">
+        <item>@string/multiview_layout_single_desc</item>
+        <item>@string/multiview_layout_splitview_desc</item>
+        <item>@string/multiview_layout_tripleview01_desc</item>
+        <item>@string/multiview_layout_tripleview02_desc</item>
+        <item>@string/multiview_layout_quadview_desc</item>
+    </array>
+    <array name="multiview_layout_entries">
+        <item>@string/multiview_layout_single</item>
+        <item>@string/multiview_layout_splitview</item>
+        <item>@string/multiview_layout_tripleview01</item>
+        <item>@string/multiview_layout_tripleview02</item>
+        <item>@string/multiview_layout_quadview</item>
+    </array>
+    <array name="multiview_layout_entryValues">
+        <item>multiview_layout_single</item>
+        <item>multiview_layout_splitview</item>
+        <item>multiview_layout_tripleview01</item>
+        <item>multiview_layout_tripleview02</item>
+        <item>multiview_layout_quadview</item>
+    </array>
+    <array name="multiview_layout_images">
+        <item>@drawable/levellist_multiview_layout_single</item>
+        <item>@drawable/levellist_multiview_layout_splitview</item>
+        <item>@drawable/levellist_multiview_layout_tripleview01</item>
+        <item>@drawable/levellist_multiview_layout_tripleview02</item>
+        <item>@drawable/levellist_multiview_layout_quadview</item>
+    </array>
+    <array name="signature_entries">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </array>
+    <array name="signature_entryValues">
+        <item>off</item>
+        <item>on</item>
+    </array>
+    <array name="smartcam_filter_entries">
+        <item>@string/film_emulator_film_none</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="smartcam_filter_entriyValues">
+        <item>0_smartcam.dat</item>
+        <item>1_smartcam_pet.dat</item>
+        <item>2_smartcam_pet.dat</item>
+        <item>3_smartcam_pet.dat</item>
+        <item>4_smartcam_pet.dat</item>
+        <item>5_smartcam_city.dat</item>
+        <item>6_smartcam_city.dat</item>
+        <item>7_smartcam_city.dat</item>
+        <item>8_smartcam_city.dat</item>
+        <item>9_smartcam_food.dat</item>
+        <item>10_smartcam_food.dat</item>
+        <item>11_smartcam_food.dat</item>
+        <item>12_smartcam_food.dat</item>
+        <item>13_smartcam_person_rear.dat</item>
+        <item>14_smartcam_person_rear.dat</item>
+        <item>15_smartcam_person_rear.dat</item>
+        <item>16_smartcam_person_rear.dat</item>
+        <item>17_smartcam_landscape.dat</item>
+        <item>18_smartcam_landscape.dat</item>
+        <item>19_smartcam_landscape.dat</item>
+        <item>20_smartcam_landscape.dat</item>
+        <item>21_smartcam_sunset_sunrise.dat</item>
+        <item>22_smartcam_sunset_sunrise.dat</item>
+        <item>23_smartcam_sunset_sunrise.dat</item>
+        <item>24_smartcam_sunset_sunrise.dat</item>
+        <item>25_smartcam_flower.dat</item>
+        <item>26_smartcam_flower.dat</item>
+        <item>27_smartcam_flower.dat</item>
+        <item>28_smartcam_flower.dat</item>
+        <item>29_smartcam_people_rear.dat</item>
+        <item>30_smartcam_people_rear.dat</item>
+        <item>31_smartcam_people_rear.dat</item>
+        <item>32_smartcam_people_rear.dat</item>
+        <item>33_smartcam_baby_rear.dat</item>
+        <item>34_smartcam_baby_rear.dat</item>
+        <item>35_smartcam_baby_rear.dat</item>
+        <item>36_smartcam_baby_rear.dat</item>
+        <item>37_smartcam_animal.dat</item>
+        <item>38_smartcam_animal.dat</item>
+        <item>39_smartcam_animal.dat</item>
+        <item>40_smartcam_animal.dat</item>
+        <item>41_smartcam_beverage.dat</item>
+        <item>42_smartcam_beverage.dat</item>
+        <item>43_smartcam_beverage.dat</item>
+        <item>44_smartcam_beverage.dat</item>
+        <item>45_smartcam_fruit.dat</item>
+        <item>46_smartcam_fruit.dat</item>
+        <item>47_smartcam_fruit.dat</item>
+        <item>48_smartcam_fruit.dat</item>
+        <item>49_smartcam_snow.dat</item>
+        <item>50_smartcam_snow.dat</item>
+        <item>51_smartcam_snow.dat</item>
+        <item>52_smartcam_snow.dat</item>
+        <item>53_smartcam_sky.dat</item>
+        <item>54_smartcam_sky.dat</item>
+        <item>55_smartcam_sky.dat</item>
+        <item>56_smartcam_sky.dat</item>
+        <item>57_smartcam_beach.dat</item>
+        <item>58_smartcam_beach.dat</item>
+        <item>59_smartcam_beach.dat</item>
+        <item>60_smartcam_beach.dat</item>
+        <item>61_smartcam_lowlight.dat</item>
+        <item>62_smartcam_lowlight.dat</item>
+        <item>63_smartcam_lowlight.dat</item>
+        <item>64_smartcam_lowlight.dat</item>
+        <item>65_smartcam_person_front.dat</item>
+        <item>66_smartcam_person_front.dat</item>
+        <item>67_smartcam_person_front.dat</item>
+        <item>68_smartcam_person_front.dat</item>
+        <item>69_smartcam_people_front.dat</item>
+        <item>70_smartcam_people_front.dat</item>
+        <item>71_smartcam_people_front.dat</item>
+        <item>72_smartcam_people_front.dat</item>
+        <item>73_smartcam_baby_front.dat</item>
+        <item>74_smartcam_baby_front.dat</item>
+        <item>75_smartcam_baby_front.dat</item>
+        <item>76_smartcam_baby_front.dat</item>
+        <item>91_smartcam_basic_01.dat</item>
+        <item>92_smartcam_basic_02.dat</item>
+        <item>93_smartcam_basic_03.dat</item>
+        <item>94_smartcam_basic_04.dat</item>
+    </array>
+    <array name="smartcam_ldb_filter_name">
+        <item>@string/film_emulator_film_none</item>
+        <item>pet1</item>
+        <item>pet2</item>
+        <item>pet3</item>
+        <item>pet4</item>
+        <item>city1</item>
+        <item>city2</item>
+        <item>city3</item>
+        <item>city4</item>
+        <item>food1</item>
+        <item>food2</item>
+        <item>food3</item>
+        <item>food4</item>
+        <item>personrear1</item>
+        <item>personrear2</item>
+        <item>personrear3</item>
+        <item>personrear4</item>
+        <item>landscape1</item>
+        <item>landscape2</item>
+        <item>landscape3</item>
+        <item>landscape4</item>
+        <item>sun1</item>
+        <item>sun2</item>
+        <item>sun3</item>
+        <item>sun4</item>
+        <item>flower1</item>
+        <item>flower2</item>
+        <item>flower3</item>
+        <item>flower4</item>
+        <item>peoplerear1</item>
+        <item>peoplerear2</item>
+        <item>peoplerear3</item>
+        <item>peoplerear4</item>
+        <item>babyrear1</item>
+        <item>babyrear2</item>
+        <item>babyrear3</item>
+        <item>babyrear4</item>
+        <item>animal1</item>
+        <item>animal2</item>
+        <item>animal3</item>
+        <item>animal4</item>
+        <item>beverage1</item>
+        <item>beverage2</item>
+        <item>beverage3</item>
+        <item>beverage4</item>
+        <item>fruit1</item>
+        <item>fruit2</item>
+        <item>fruit3</item>
+        <item>fruit4</item>
+        <item>snow1</item>
+        <item>snow2</item>
+        <item>snow3</item>
+        <item>snow4</item>
+        <item>sky1</item>
+        <item>sky2</item>
+        <item>sky3</item>
+        <item>sky4</item>
+        <item>beach1</item>
+        <item>beach2</item>
+        <item>beach3</item>
+        <item>beach4</item>
+        <item>lowlight1</item>
+        <item>lowlight2</item>
+        <item>lowlight3</item>
+        <item>lowlight4</item>
+        <item>personfront1</item>
+        <item>personfront2</item>
+        <item>personfront3</item>
+        <item>personfront4</item>
+        <item>peoplefront1</item>
+        <item>peoplefront2</item>
+        <item>peoplefront3</item>
+        <item>peoplefront4</item>
+        <item>babyfront1</item>
+        <item>babyfront2</item>
+        <item>babyfront3</item>
+        <item>babyfront4</item>
+        <item>basic1</item>
+        <item>basic2</item>
+        <item>basic3</item>
+        <item>basic4</item>
+    </array>
+    <array name="taglocation_entries">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </array>
+    <array name="taglocation_entryValues">
+        <item>off</item>
+        <item>on</item>
+    </array>
+    <array name="tile_preview_entries">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </array>
+    <array name="tile_preview_entryValues">
+        <item>off</item>
+        <item>on</item>
+    </array>
+    <array name="timer_description">
+        <item>@string/timer_off</item>
+        <item>@string/timer_3sec</item>
+        <item>@string/timer_10sec</item>
+    </array>
+    <array name="timer_entries">
+        <item>@string/not_use</item>
+        <item>@string/timer_3</item>
+        <item>@string/timer_10</item>
+    </array>
+    <array name="timer_entryValues">
+        <item>@null</item>
+        <item>3</item>
+        <item>10</item>
+    </array>
+    <array name="timer_indicatorIcons">
+        <item>@drawable/cam_icon_empty</item>
+        <item>@drawable/cam_icon_empty</item>
+        <item>@drawable/cam_icon_empty</item>
+    </array>
+    <array name="tracking_af_description">
+        <item>@string/tracking_af_off</item>
+        <item>@string/tracking_af_on</item>
+    </array>
+    <array name="tracking_af_entries">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </array>
+    <array name="tracking_af_entryValues">
+        <item>off</item>
+        <item>on</item>
+    </array>
+    <array name="video_size_entries">
+        <item>UHD 16:9</item>
+        <item>FHD 19.5:9</item>
+        <item>FHD 18.9:9</item>
+        <item>FHD 18:9</item>
+        <item>FHD 16:9 (120fps)</item>
+        <item>FHD 16:9 (60fps)</item>
+        <item>FHD 16:9</item>
+        <item>FHD 16:9</item>
+        <item>FSHD</item>
+        <item>High (1080x1080)</item>
+        <item>HD 19.5:9</item>
+        <item>HD 18.9:9</item>
+        <item>HD 18:9</item>
+        <item>HD 16:9</item>
+        <item>HD 16:9 (240fps)</item>
+        <item>HD 16:9 (120fps)</item>
+        <item>@string/slow_motion</item>
+        <item>Standard (720x720)</item>
+        <item>WVGA</item>
+        <item>SD</item>
+        <item>VGA 4:3</item>
+        <item>QVGA</item>
+        <item>QCIF</item>
+    </array>
+    <array name="video_size_entryValues">
+        <item>3840x2160</item>
+        <item>2340x1080</item>
+        <item>2268x1080</item>
+        <item>2160x1080</item>
+        <item>1920x1080@120</item>
+        <item>1920x1080@60</item>
+        <item>1920x1080</item>
+        <item>1920x1088</item>
+        <item>1440x1080</item>
+        <item>1080x1080</item>
+        <item>1560x720</item>
+        <item>1512x720</item>
+        <item>1440x720</item>
+        <item>1280x720</item>
+        <item>1280x720@240</item>
+        <item>1280x720@120</item>
+        <item>1280x720@120</item>
+        <item>720x720</item>
+        <item>800x480</item>
+        <item>720x480</item>
+        <item>640x480</item>
+        <item>320x240</item>
+        <item>176x144</item>
+    </array>
+    <array name="voiceshutter_description">
+        <item>@string/voiceshutter_off</item>
+        <item>@string/voiceshutter_on</item>
+    </array>
+    <array name="white_balance_entries">
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>7500</item>
+    </array>
+    <array name="white_balance_wheel_icon">
+        <item>@drawable/manual_icon_wb_incandescent</item>
+        <item>@drawable/manual_icon_wb_fluorescent</item>
+        <item>@drawable/manual_icon_wb_sunny</item>
+        <item>@drawable/manual_icon_wb_cloudy</item>
+    </array>
+    <array name="whitebalance_entries">
+        <item>@string/sp_whitebalance_default_NORMAL</item>
+        <item>@string/white_balance_incandescent</item>
+        <item>@string/white_balance_sunny</item>
+        <item>@string/white_balance_fluorescent</item>
+        <item>@string/white_balance_cloudy</item>
+    </array>
+    <array name="whitebalance_entryvalues">
+        <item>auto</item>
+        <item>incandescent</item>
+        <item>daylight</item>
+        <item>fluorescent</item>
+        <item>cloudy-daylight</item>
+    </array>
+</resources>

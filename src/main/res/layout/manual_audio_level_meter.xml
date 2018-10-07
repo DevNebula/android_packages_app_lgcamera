@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@c0086id/manual_audio_level_meter_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/manual_audio_level_meter_layout_rotate_inner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@c0086id/manual_audio_level_meter_layout_rotate_core" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/manual_audio_level_meter_layout_height">
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="@dimen/manual_audio_level_meter_text_width" android:layout_height="match_parent" android:text="L " style="@style/manual_audio_level_meter_title_text"/>
+                    <com.lge.camera.components.AudioLevelMeter android:layout_gravity="center_vertical" android:id="@c0086id/manual_audio_level_meter_left" android:layout_width="@dimen/manual_audio_level_meter_width" android:layout_height="@dimen/manual_audio_level_meter_height"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/manual_audio_level_meter_layout_height" android:layout_marginTop="@dimen/manual_audio_level_meter_gap_height">
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="@dimen/manual_audio_level_meter_text_width" android:layout_height="match_parent" android:text="R " style="@style/manual_audio_level_meter_title_text"/>
+                    <com.lge.camera.components.AudioLevelMeter android:layout_gravity="center_vertical" android:id="@c0086id/manual_audio_level_meter_right" android:layout_width="@dimen/manual_audio_level_meter_width" android:layout_height="@dimen/manual_audio_level_meter_height"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</LinearLayout>

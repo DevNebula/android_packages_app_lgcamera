@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preference xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <default>
+        <item name="mode_rear_supported"> mode_normal\10
+        </item>
+        <item name="mode_front_supported"> mode_normal\10
+        </item>
+        <item name="camera_pictureSize_rear_supported"> 4160x3120,\10            4160x2340,\10            3120x3120,\10            2048x1536\10
+        </item>
+        <item name="camera_previewSize_rear_supported"> 1440x1080,\10            1920x1080,\10            1440x1440,\10            1440x1080\10
+        </item>
+        <item name="camera_previewSizeOnScreen_rear_supported"> 1440x1080,\10            1920x1080,\10            1440x1440,\10            1440x1080\10
+        </item>
+        <item name="camera_pictureSize_rear_default"> 4160x2340\10
+        </item>
+        <item name="camera_pictureSize_front_supported"> 1920x1080,\10            1280x960\10
+        </item>
+        <item name="camera_previewSize_front_supported"> 1280x720,\10            1280x960\10
+        </item>
+        <item name="camera_previewSizeOnScreen_front_supported"> 1920x1080,\10            1440x1080\10
+        </item>
+        <item name="camera_pictureSize_front_default"> 1920x1080\10
+        </item>
+        <item name="video_size_rear_supported"> 1280x720,\10            640x480,\10            320x240,\10            176x144\10
+        </item>
+        <item name="video_previewSizeOnScreen_rear_supported"> 1920x1080,\10            1440x1080,\10            1440x1080,\10            704x576\10
+        </item>
+        <item name="video_size_rear_bitrate"> 12000000,\10            5000000,\10            320000,\10            128000\10
+        </item>
+        <item name="video_size_rear_default"> 1920x1080\10
+        </item>
+        <item name="video_size_front_supported"> 640x480,\10            320x240,\10            176x144\10
+        </item>
+        <item name="video_previewSizeOnScreen_front_supported"> 1440x1080,\10            1440x1080,\10            704x576\10
+        </item>
+        <item name="video_size_front_bitrate"> 5000000,\10            320000,\10            128000\10
+        </item>
+        <item name="video_size_front_default"> 1920x1080\10
+        </item>
+    </default>
+</Preference>

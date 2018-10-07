@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/gestureshutter_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <LinearLayout android:orientation="horizontal" android:id="@c0086id/gestureshutter_guide_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gestureshutter_guide_bottom_margin_ver" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/gestureshutter_guide_margin_startEnd" android:layout_marginEnd="@dimen/gestureshutter_guide_margin_startEnd" android:layout_alignParentStart="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@c0086id/gestureshutter_guide_image" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.lge.camera.components.RotateTextView android:layout_gravity="center" android:id="@c0086id/gestureshutter_guide_string" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/gestureshutter_guide_margin_between_image_text" style="@style/onScreenHint_rotate_text_view"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@c0086id/gestureshutter_guide_view2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/gestureshutter_guide_intervalshot_start_margin">
+                <ImageView android:id="@c0086id/gestureshutter_guide_image2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.lge.camera.components.RotateTextView android:layout_gravity="center" android:id="@c0086id/gestureshutter_guide_string2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/gestureshutter_guide_margin_between_image_text" style="@style/onScreenHint_rotate_text_view"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@c0086id/gestureshutter_guide_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/intervalshot_entering_guidetext_marginBottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+        <TextView android:textAppearance="@style/onScreenHint_rotate_text_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intervalshot_guide"/>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>
